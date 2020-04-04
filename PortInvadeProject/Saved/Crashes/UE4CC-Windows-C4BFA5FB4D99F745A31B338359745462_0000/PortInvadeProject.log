@@ -1,0 +1,591 @@
+﻿Log file open, 04/04/20 13:19:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PortInvadeProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.286510
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.260s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.04.04-17.19.38:362][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.04-17.19.38:362][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.04-17.19.38:395][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.04-17.19.38:395][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.04.04-17.19.38:395][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.04-17.19.38:396][  0]LogInit: Computer: MSI
+[2020.04.04-17.19.38:396][  0]LogInit: User: DaultonNelson
+[2020.04.04-17.19.38:397][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.04-17.19.38:397][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.04-17.19.38:397][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.04-17.19.38:398][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.04-17.19.38:398][  0]LogMemory: Process Physical Memory: 100.29 MB used, 100.29 MB peak
+[2020.04.04-17.19.38:398][  0]LogMemory: Process Virtual Memory: 90.88 MB used, 90.88 MB peak
+[2020.04.04-17.19.38:398][  0]LogMemory: Physical Memory: 9267.85 MB used,  7003.56 MB free, 16271.41 MB total
+[2020.04.04-17.19.38:398][  0]LogMemory: Virtual Memory: 4614.15 MB used,  7003.56 MB free, 134217728.00 MB total
+[2020.04.04-17.19.40:490][  0]LogInit: Using OS detected language (en-US).
+[2020.04.04-17.19.40:490][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.04-17.19.40:494][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.04-17.19.41:501][  0]LogStreaming: Display: Took  1.010s to InitEngineTextLocalization.
+[2020.04.04-17.19.41:501][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.04-17.19.41:640][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.04-17.19.41:641][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.04-17.19.42:029][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.04-17.19.42:029][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.04-17.19.42:147][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.04.04-17.19.42:147][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.04-17.19.42:190][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.04.04-17.19.42:190][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.04-17.19.42:195][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.04-17.19.42:195][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.04-17.19.42:195][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.04-17.19.42:274][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.04-17.19.42:275][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.04-17.19.42:275][  0]LogWindows: EnumDisplayDevices:
+[2020.04.04-17.19.42:275][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.04.04-17.19.42:275][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.04-17.19.42:275][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.04-17.19.42:277][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.04-17.19.42:278][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.04-17.19.42:278][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.04-17.19.42:279][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.04-17.19.42:279][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.04-17.19.42:279][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.04.04-17.19.42:279][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.04-17.19.42:279][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.04-17.19.42:279][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.04-17.19.42:398][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.04-17.19.42:424][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.04-17.19.42:428][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Intermediate/Shaders/WorkingDirectory/19164/).
+[2020.04.04-17.19.42:429][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DaultonNelson/AppData/Local/Temp/UnrealShaderWorkingDir/B68B22964C1F966543D569A696B34A27/'.
+[2020.04.04-17.19.43:340][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.04-17.19.43:373][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.04-17.19.43:398][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.04-17.19.43:421][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.04-17.19.43:444][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.04-17.19.43:468][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.04-17.19.43:492][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.04-17.19.43:517][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.04-17.19.43:528][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.04-17.19.43:666][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.04-17.19.43:763][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.04-17.19.43:763][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.04-17.19.43:825][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.04-17.19.43:825][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.04-17.19.43:849][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.04-17.19.43:869][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.04-17.19.43:893][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.04-17.19.43:915][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.04-17.19.43:928][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.04.04-17.19.43:929][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.04-17.19.44:007][  0]LogXGEController: Cleaning working directory: C:/Users/DaultonNelson/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.04-17.19.44:007][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.04-17.19.44:007][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.04-17.19.44:007][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.04-17.19.45:171][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.04-17.19.45:246][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.04-17.19.45:246][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.04.04-17.19.45:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.04-17.19.45:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.04-17.19.45:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.04-17.19.45:246][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.04-17.19.45:271][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.04-17.19.45:284][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DaultonNelson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.04-17.19.45:284][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.04-17.19.45:284][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.04-17.19.45:317][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.04-17.19.45:321][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.04-17.19.45:323][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.04-17.19.45:440][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
+[2020.04.04-17.19.46:001][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.04-17.19.46:234][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.04-17.19.46:238][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.04-17.19.46:238][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.04-17.19.46:238][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.04-17.19.46:238][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.04-17.19.46:258][  0]LogNetVersion: PortInvadeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2198381219)
+[2020.04.04-17.19.47:011][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.110565 seconds
+[2020.04.04-17.19.47:017][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.04.04-17.19.47:017][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.04.04-17.19.47:017][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.04-17.19.48:387][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.04-17.19.48:402][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.04-17.19.48:691][  0]SourceControl: Source control is disabled
+[2020.04.04-17.19.48:691][  0]SourceControl: Source control is disabled
+[2020.04.04-17.19.48:693][  0]SourceControl: Source control is disabled
+[2020.04.04-17.19.48:694][  0]SourceControl: Source control is disabled
+[2020.04.04-17.19.48:920][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.04-17.19.49:550][  0]LogOcInput: OculusInput pre-init called
+[2020.04.04-17.19.49:657][  0]LogEngine: Initializing Engine...
+[2020.04.04-17.19.49:658][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.04-17.19.49:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.04-17.19.49:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.04-17.19.49:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.04-17.19.49:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.04-17.19.49:951][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.04-17.19.49:965][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.04-17.19.50:071][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.04-17.19.50:388][  0]LogInit: FAudioDevice initialized.
+[2020.04.04-17.19.50:389][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.04-17.19.50:551][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.04-17.19.50:568][  0]LogInit: Texture streaming: Enabled
+[2020.04.04-17.19.50:634][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.04-17.19.50:635][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4C1BFC53-44B2-1502-2887-9BA9394A53E8}
+[2020.04.04-17.19.50:677][  0]LogInit: Transaction tracking system initialized
+[2020.04.04-17.19.50:748][  0]BlueprintLog: New page: Editor Load
+[2020.04.04-17.19.50:988][  0]LocalizationService: Localization service is disabled
+[2020.04.04-17.19.51:514][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.04-17.19.51:514][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.04-17.19.51:514][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.04-17.19.51:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.04-17.19.51:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.04-17.19.51:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.04-17.19.51:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.04-17.19.51:648][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/' took 0.02s
+[2020.04.04-17.19.51:648][  0]SourceControl: Source control is disabled
+[2020.04.04-17.19.51:649][  0]LightingResults: New page: Lighting Build
+[2020.04.04-17.19.51:651][  0]MapCheck: New page: Map Check
+[2020.04.04-17.19.51:651][  0]LightingResults: New page: Lighting Build
+[2020.04.04-17.19.52:417][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.04-17.19.52:440][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.04-17.19.52:496][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.04-17.19.52:570][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.784ms to complete.
+[2020.04.04-17.19.52:570][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.922
+[2020.04.04-17.19.52:731][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-17.19.52:739][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-17.19.52:747][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-17.19.52:755][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-17.19.52:761][  0]LogCollectionManager: Loaded 0 collections in 0.001946 seconds
+[2020.04.04-17.19.52:803][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Collections/' took 0.01s
+[2020.04.04-17.19.52:803][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Developers/DaultonNelson/Collections/' took 0.01s
+[2020.04.04-17.19.52:803][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Collections/' took 0.01s
+[2020.04.04-17.19.52:803][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.04.04-17.19.52:813][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2572 classes and 603 folders.
+[2020.04.04-17.19.52:820][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.04-17.19.52:878][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.04-17.19.52:883][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.04.04-17.19.54:411][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.04.04-17.19.54:512][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.04-17.19.54:516][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.04-17.19.54:524][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.04-17.19.54:636][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PortInvadeProject
+[2020.04.04-17.19.54:636][  0]LogTemp: CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.04-17.19.54:636][  0]LogTemp: Initial Dir: D:\Program Files\Unreal\Engine\UE_4.20
+[2020.04.04-17.19.54:636][  0]LogTemp: Env CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.04-17.19.54:636][  0]LogTemp: BranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries
+[2020.04.04-17.19.54:636][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DaultonNelson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.04.04-17.19.54:636][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.04-17.19.54:797][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.04-17.19.54:797][  0]LogLoad: (Engine Initialization) Total time: 19.25 seconds
+[2020.04.04-17.19.54:797][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.04-17.19.54:839][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.04-17.19.54:852][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.04-17.19.54:873][  1]LogAssetRegistry: Asset discovery search completed in 9.4571 seconds
+[2020.04.04-17.19.54:876][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.04-17.19.54:876][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000104 seconds (updated 0 objects)
+[2020.04.04-17.19.57:873][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-17.19.59:734][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-17.20.04:878][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-17.20.09:647][407]LogSlate: Took 0.000662 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.04-17.20.09:920][407]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default1CA6AED34DFCD4524B8071BD92C7CF27.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.04.04-17.20.10:142][407]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default_BuiltData78D1302F40AF4AC475BD98BCC787022F.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2020.04.04-17.20.10:655][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.04-17.20.22:962][509]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/Blender Files/FBX Files/Invader_Brain.fbx)
+[2020.04.04-17.20.23:092][509]LogFbx: Loading FBX Scene from ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/Blender Files/FBX Files/Invader_Brain.fbx
+[2020.04.04-17.20.23:126][509]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.04-17.20.34:555][509]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.04-17.20.34:694][509]LogFbx: =================================================
+[2020.04.04-17.20.34:694][509]LogFbx: Dumping Node START [Invader_Brain_Parent] 
+[2020.04.04-17.20.34:694][509]LogFbx: 	Total Deformer Count -1640182528.
+[2020.04.04-17.20.34:694][509]LogFbx: 	Attribute (Cube) Type (4).
+[2020.04.04-17.20.34:695][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Parent (Type Mesh).
+[2020.04.04-17.20.34:695][509]LogFbx: Dumping Node END [Invader_Brain_Parent]
+[2020.04.04-17.20.34:695][509]LogFbx: =================================================
+[2020.04.04-17.20.34:695][509]LogFbx: Dumping Node START [Invader_Brain_Body] 
+[2020.04.04-17.20.34:695][509]LogFbx: 	Total Deformer Count -1640181376.
+[2020.04.04-17.20.34:695][509]LogFbx: 	Attribute (Cube.002) Type (4).
+[2020.04.04-17.20.34:695][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Body (Type Mesh).
+[2020.04.04-17.20.34:695][509]LogFbx: Dumping Node END [Invader_Brain_Body]
+[2020.04.04-17.20.34:695][509]LogFbx: =================================================
+[2020.04.04-17.20.34:695][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.34:695][509]LogFbx: 	Total Deformer Count -1640181952.
+[2020.04.04-17.20.34:695][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.34:695][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.34:695][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.34:695][509]LogFbx: =================================================
+[2020.04.04-17.20.34:695][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.34:695][509]LogFbx: 	Total Deformer Count -1640181952.
+[2020.04.04-17.20.34:696][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.34:696][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.34:696][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.34:696][509]LogFbx: =================================================
+[2020.04.04-17.20.34:696][509]LogFbx: Dumping Node START [Invader_Brain_Parent] 
+[2020.04.04-17.20.34:696][509]LogFbx: 	Total Deformer Count -1640182528.
+[2020.04.04-17.20.34:696][509]LogFbx: 	Attribute (Cube) Type (4).
+[2020.04.04-17.20.34:696][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Parent (Type Mesh).
+[2020.04.04-17.20.34:696][509]LogFbx: Dumping Node END [Invader_Brain_Parent]
+[2020.04.04-17.20.34:696][509]LogFbx: =================================================
+[2020.04.04-17.20.34:696][509]LogFbx: Dumping Node START [Invader_Brain_Body] 
+[2020.04.04-17.20.34:696][509]LogFbx: 	Total Deformer Count -1640177728.
+[2020.04.04-17.20.34:696][509]LogFbx: 	Attribute (Cube.002) Type (4).
+[2020.04.04-17.20.34:696][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Body (Type Mesh).
+[2020.04.04-17.20.34:696][509]LogFbx: Dumping Node END [Invader_Brain_Body]
+[2020.04.04-17.20.34:696][509]LogFbx: =================================================
+[2020.04.04-17.20.34:696][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.34:696][509]LogFbx: 	Total Deformer Count -1640177248.
+[2020.04.04-17.20.34:697][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.34:697][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.34:697][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.34:697][509]LogFbx: =================================================
+[2020.04.04-17.20.34:697][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.34:697][509]LogFbx: 	Total Deformer Count -1640177248.
+[2020.04.04-17.20.34:697][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.34:697][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.34:697][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.34:697][509]LogFbx: =================================================
+[2020.04.04-17.20.34:697][509]LogFbx: Dumping Node START [Invader_Brain_Body] 
+[2020.04.04-17.20.34:697][509]LogFbx: 	Total Deformer Count -1640182528.
+[2020.04.04-17.20.34:697][509]LogFbx: 	Attribute (Cube.002) Type (4).
+[2020.04.04-17.20.34:697][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Body (Type Mesh).
+[2020.04.04-17.20.34:697][509]LogFbx: Dumping Node END [Invader_Brain_Body]
+[2020.04.04-17.20.34:697][509]LogFbx: =================================================
+[2020.04.04-17.20.34:698][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.34:698][509]LogFbx: 	Total Deformer Count -1640176288.
+[2020.04.04-17.20.34:698][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.34:698][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.34:698][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.34:698][509]LogFbx: =================================================
+[2020.04.04-17.20.34:698][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.34:698][509]LogFbx: 	Total Deformer Count -1640176288.
+[2020.04.04-17.20.34:698][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.34:698][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.34:698][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.34:698][509]LogFbx: =================================================
+[2020.04.04-17.20.34:698][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.34:698][509]LogFbx: 	Total Deformer Count -1640182528.
+[2020.04.04-17.20.34:698][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.34:698][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.34:699][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.34:699][509]LogFbx: =================================================
+[2020.04.04-17.20.34:699][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.34:699][509]LogFbx: 	Total Deformer Count -1640182528.
+[2020.04.04-17.20.34:699][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.34:699][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.34:699][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.34:995][509]LogMaterial: Warning: Material /Game/3DAssets/InvaderBrain/Invader_Brain1.Invader_Brain1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.04-17.20.34:998][509]LogMaterial: Display: Missing cached shader map for material Invader_Brain1, compiling. 
+[2020.04.04-17.20.35:269][509]LogMaterial: Display: Missing cached shader map for material Invader_Brain1, compiling. 
+[2020.04.04-17.20.35:354][509]LogFbx: Triangulating skeletal mesh Invader_Brain_Body
+[2020.04.04-17.20.35:569][509]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.04-17.20.35:569][509]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.04-17.20.35:569][509]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.04-17.20.35:569][509]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.04-17.20.35:569][509]LogFbx: Triangulating skeletal mesh Invader_Brain_Arm_R
+[2020.04.04-17.20.35:572][509]LogFbx: Triangulating skeletal mesh Invader_Brain_Arm_L
+[2020.04.04-17.20.35:582][509]LogFbx: Warning: Bones digested - 4  Depth of hierarchy - 3
+[2020.04.04-17.20.35:789][509]LogSkeletalMesh: Section 0: 2096 vertices, 3 active bones
+[2020.04.04-17.20.35:790][509]LogSkeletalMesh: Section 0: Material=0, 3740 triangles
+[2020.04.04-17.20.35:791][509]LogSkeletalMesh: Building Skeletal Mesh Invader_Brain...
+[2020.04.04-17.20.35:814][509]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/3DAssets/InvaderBrain/Invader_Brain.Invader_Brain
+[2020.04.04-17.20.35:816][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Skeleton'
+[2020.04.04-17.20.35:816][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Skeleton'
+[2020.04.04-17.20.35:818][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_PhysicsAsset'
+[2020.04.04-17.20.35:818][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_PhysicsAsset'
+[2020.04.04-17.20.35:824][509]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.04.04-17.20.35:856][509]LogFbx: =================================================
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node START [Invader_Brain_Parent] 
+[2020.04.04-17.20.35:856][509]LogFbx: 	Total Deformer Count -1737315584.
+[2020.04.04-17.20.35:856][509]LogFbx: 	Attribute (Cube) Type (4).
+[2020.04.04-17.20.35:856][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Parent (Type Mesh).
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node END [Invader_Brain_Parent]
+[2020.04.04-17.20.35:856][509]LogFbx: =================================================
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node START [Invader_Brain_Body] 
+[2020.04.04-17.20.35:856][509]LogFbx: 	Total Deformer Count -1737316928.
+[2020.04.04-17.20.35:856][509]LogFbx: 	Attribute (Cube.002) Type (4).
+[2020.04.04-17.20.35:856][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Body (Type Mesh).
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node END [Invader_Brain_Body]
+[2020.04.04-17.20.35:856][509]LogFbx: =================================================
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.35:856][509]LogFbx: 	Total Deformer Count -1737317312.
+[2020.04.04-17.20.35:856][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.35:856][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.35:856][509]LogFbx: =================================================
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.35:856][509]LogFbx: 	Total Deformer Count -1737317312.
+[2020.04.04-17.20.35:856][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.35:856][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.35:856][509]LogFbx: =================================================
+[2020.04.04-17.20.35:856][509]LogFbx: Dumping Node START [Invader_Brain_Parent] 
+[2020.04.04-17.20.35:856][509]LogFbx: 	Total Deformer Count -1737315584.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cube) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Parent (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Parent]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Body] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737317984.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cube.002) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Body (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Body]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737318368.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737318368.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Body] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737315584.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cube.002) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Body (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Body]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737319136.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737319136.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Arm_R] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737315584.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_R (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Arm_R]
+[2020.04.04-17.20.35:857][509]LogFbx: =================================================
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node START [Invader_Brain_Arm_L] 
+[2020.04.04-17.20.35:857][509]LogFbx: 	Total Deformer Count -1737315584.
+[2020.04.04-17.20.35:857][509]LogFbx: 	Attribute (Cylinder.002) Type (4).
+[2020.04.04-17.20.35:857][509]LogFbx: 		[Node Attribute Child 1] Invader_Brain_Arm_L (Type Mesh).
+[2020.04.04-17.20.35:857][509]LogFbx: Dumping Node END [Invader_Brain_Arm_L]
+[2020.04.04-17.20.35:857][509]LogFbx: SortedLinks :(0) Invader_Brain_Parent
+[2020.04.04-17.20.35:857][509]LogFbx: SortedLinks :(1) Invader_Brain_Body
+[2020.04.04-17.20.35:857][509]LogFbx: SortedLinks :(2) Invader_Brain_Arm_R
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(3) Invader_Brain_Arm_L
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(0) Invader_Brain_Parent
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(1) Invader_Brain_Body
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(2) Invader_Brain_Arm_R
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(3) Invader_Brain_Arm_L
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(0) Invader_Brain_Parent
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(1) Invader_Brain_Body
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(2) Invader_Brain_Arm_R
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(3) Invader_Brain_Arm_L
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(0) Invader_Brain_Parent
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(1) Invader_Brain_Body
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(2) Invader_Brain_Arm_R
+[2020.04.04-17.20.35:859][509]LogFbx: SortedLinks :(3) Invader_Brain_Arm_L
+[2020.04.04-17.20.35:866][509]LogFbx: Parsing AnimStack Invader_Brain_Arm_R|Invader_Brain_Arm_LAction
+[2020.04.04-17.20.35:866][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_LAction'
+[2020.04.04-17.20.35:867][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_LAction'
+[2020.04.04-17.20.35:906][509]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_LAction.Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_LAction
+[2020.04.04-17.20.35:911][509]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_LAction) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.04-17.20.35:914][509]LogFbx: Parsing AnimStack Invader_Brain_Arm_R|Invader_Brain_Arm_RAction
+[2020.04.04-17.20.35:914][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_RAction'
+[2020.04.04-17.20.35:914][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_RAction'
+[2020.04.04-17.20.36:006][509]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_RAction.Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_RAction
+[2020.04.04-17.20.36:006][509]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_RAction) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.04-17.20.36:008][509]LogFbx: Parsing AnimStack Invader_Brain_Arm_L|Invader_Brain_Arm_LAction
+[2020.04.04-17.20.36:008][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction'
+[2020.04.04-17.20.36:008][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction'
+[2020.04.04-17.20.36:090][509]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction.Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction
+[2020.04.04-17.20.36:090][509]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.04-17.20.36:091][509]LogFbx: Parsing AnimStack Invader_Brain_Arm_L|Invader_Brain_Arm_RAction
+[2020.04.04-17.20.36:091][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_RAction'
+[2020.04.04-17.20.36:091][509]LogLinker: Can't find file '/Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_RAction'
+[2020.04.04-17.20.36:189][509]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_RAction.Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_RAction
+[2020.04.04-17.20.36:189][509]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_RAction) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.04-17.20.36:205][509]LogSkeletalMesh: Building Skeletal Mesh Invader_Brain...
+[2020.04.04-17.20.36:208][509]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/3DAssets/InvaderBrain/Invader_Brain.Invader_Brain
+[2020.04.04-17.20.36:213][509]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.04-17.20.36:213][509]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2020.04.04-17.20.36:247][509]LogSkeletalMesh: Building Skeletal Mesh Invader_Brain...
+[2020.04.04-17.20.36:252][509]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/3DAssets/InvaderBrain/Invader_Brain.Invader_Brain
+[2020.04.04-17.20.38:935][584]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.04-17.20.39:448][602]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.04-17.20.41:035][647]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-17.20.41:072][647]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-17.20.42:984][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain15105759474916A66F36D793E09AB397.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain.uasset'
+[2020.04.04-17.20.43:160][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain1ADD3F66D46D3584DE633B79217C24C24.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain1.uasset'
+[2020.04.04-17.20.43:279][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain_Anim_Invader_Brain98ACE2B34CE48ECD664F1693122576C8.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction.uasset'
+[2020.04.04-17.20.43:411][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain_Anim_Invader_Brain7BBFA21D48F34BD680AC72A123BB54CF.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_RAction.uasset'
+[2020.04.04-17.20.43:508][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain_Anim_Invader_Brain8F18914341F6B64A1442DD89A67F189F.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_LAction.uasset'
+[2020.04.04-17.20.43:594][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain_Anim_Invader_Brain0D81B5BD4E1156BDF4CBE58EBC593B76.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_R_Invader_Brain_Arm_RAction.uasset'
+[2020.04.04-17.20.43:717][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain_PhysicsAssetB30F96E0478D33F851CD07B34F6C4FD7.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain_PhysicsAsset.uasset'
+[2020.04.04-17.20.43:735][702]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Brain_Skeleton53F7581D42C836D20015049BFB45E66F.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBrain/Invader_Brain_Skeleton.uasset'
+[2020.04.04-17.20.57:133][ 39]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:146 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2020.04.04-17.20.57:133][ 39]LogD3D11RHI: [Aftermath] GDynamicRHI=000001D3A4D20140, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.04.04-17.20.57:133][ 39]LogWindows: Windows GetLastError: The operation completed successfully. (0)
