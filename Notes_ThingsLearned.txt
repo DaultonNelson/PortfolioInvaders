@@ -1,0 +1,6 @@
+Game Mode notes
+-Game state is used to set rules and conditions to our framework
+-The best place to house all of your widgets would be in the player controller, as with a multiplayer game you would want each individual player to have their own unique ui setup
+-Game Instance is a piece of the framework that exists up above everything else, always present
+-Instance class is in Maps and Modes in the Project Settings
+-Cast to: name of game instance
