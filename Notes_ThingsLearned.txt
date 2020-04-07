@@ -4,3 +4,4 @@ Game Mode notes
 -Game Instance is a piece of the framework that exists up above everything else, always present
 -Instance class is in Maps and Modes in the Project Settings
 -Cast to: name of game instance
+-Save Game Blueprint Classes are used for saving data
