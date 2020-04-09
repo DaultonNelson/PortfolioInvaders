@@ -1,0 +1,779 @@
+﻿Log file open, 04/09/20 11:03:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PortInvadeProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.286151
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.089s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.04.09-15.03.35:058][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-15.03.35:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.09-15.03.35:067][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.09-15.03.35:067][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.04.09-15.03.35:067][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.09-15.03.35:068][  0]LogInit: Computer: MSI
+[2020.04.09-15.03.35:068][  0]LogInit: User: DaultonNelson
+[2020.04.09-15.03.35:068][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.09-15.03.35:068][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.09-15.03.35:068][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.09-15.03.35:068][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.09-15.03.35:068][  0]LogMemory: Process Physical Memory: 101.45 MB used, 101.45 MB peak
+[2020.04.09-15.03.35:068][  0]LogMemory: Process Virtual Memory: 89.61 MB used, 89.61 MB peak
+[2020.04.09-15.03.35:068][  0]LogMemory: Physical Memory: 9012.37 MB used,  7259.04 MB free, 16271.41 MB total
+[2020.04.09-15.03.35:068][  0]LogMemory: Virtual Memory: 4612.59 MB used,  7259.04 MB free, 134217728.00 MB total
+[2020.04.09-15.03.36:026][  0]LogInit: Using OS detected language (en-US).
+[2020.04.09-15.03.36:026][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.09-15.03.36:027][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.09-15.03.36:404][  0]LogStreaming: Display: Took  0.378s to InitEngineTextLocalization.
+[2020.04.09-15.03.36:404][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.09-15.03.36:466][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.09-15.03.36:466][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.09-15.03.36:738][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-15.03.36:738][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.09-15.03.36:819][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.04.09-15.03.36:819][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.09-15.03.36:840][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.04.09-15.03.36:840][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.09-15.03.36:844][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.09-15.03.36:845][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.09-15.03.36:845][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.09-15.03.36:898][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.09-15.03.36:899][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.09-15.03.36:899][  0]LogWindows: EnumDisplayDevices:
+[2020.04.09-15.03.36:899][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.04.09-15.03.36:900][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.09-15.03.36:900][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.09-15.03.36:901][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-15.03.36:901][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-15.03.36:902][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-15.03.36:902][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-15.03.36:902][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.09-15.03.36:902][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.04.09-15.03.36:902][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.09-15.03.36:902][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.09-15.03.36:902][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.09-15.03.36:960][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.09-15.03.36:973][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.09-15.03.36:976][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Intermediate/Shaders/WorkingDirectory/22760/).
+[2020.04.09-15.03.36:976][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DaultonNelson/AppData/Local/Temp/UnrealShaderWorkingDir/C183C0844277135ECCA48EABFA798C6D/'.
+[2020.04.09-15.03.37:291][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.09-15.03.37:304][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.09-15.03.37:317][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.09-15.03.37:330][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.09-15.03.37:345][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.09-15.03.37:358][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.09-15.03.37:371][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.09-15.03.37:384][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.09-15.03.37:390][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-15.03.37:468][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.09-15.03.37:532][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.09-15.03.37:532][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.09-15.03.37:599][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.09-15.03.37:599][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.09-15.03.37:613][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.09-15.03.37:632][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.09-15.03.37:658][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.09-15.03.37:675][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.09-15.03.37:696][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.04.09-15.03.37:696][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.09-15.03.37:758][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.09-15.03.37:758][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.09-15.03.37:758][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.09-15.03.38:466][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.09-15.03.38:525][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.09-15.03.38:525][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.04.09-15.03.38:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.09-15.03.38:526][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.09-15.03.38:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.09-15.03.38:526][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.09-15.03.38:541][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.09-15.03.38:554][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DaultonNelson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.09-15.03.38:554][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.09-15.03.38:554][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.09-15.03.38:571][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.09-15.03.38:573][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.09-15.03.38:573][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.09-15.03.38:650][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2020.04.09-15.03.38:948][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-15.03.39:075][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.09-15.03.39:078][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.09-15.03.39:078][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.09-15.03.39:078][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.09-15.03.39:078][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.09-15.03.39:095][  0]LogNetVersion: PortInvadeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2198381219)
+[2020.04.09-15.03.39:581][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.078681 seconds
+[2020.04.09-15.03.39:587][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.04.09-15.03.39:587][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2020.04.09-15.03.39:587][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.09-15.03.40:467][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.09-15.03.40:480][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.09-15.03.40:657][  0]SourceControl: Source control is disabled
+[2020.04.09-15.03.40:658][  0]SourceControl: Source control is disabled
+[2020.04.09-15.03.40:659][  0]SourceControl: Source control is disabled
+[2020.04.09-15.03.40:659][  0]SourceControl: Source control is disabled
+[2020.04.09-15.03.40:835][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.09-15.03.41:110][  0]LogOcInput: OculusInput pre-init called
+[2020.04.09-15.03.41:168][  0]LogEngine: Initializing Engine...
+[2020.04.09-15.03.41:169][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-15.03.41:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.09-15.03.41:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.09-15.03.41:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.09-15.03.41:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.09-15.03.41:368][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.09-15.03.41:379][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.09-15.03.41:481][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-15.03.41:707][  0]LogInit: FAudioDevice initialized.
+[2020.04.09-15.03.41:707][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.09-15.03.41:801][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.09-15.03.41:807][  0]LogInit: Texture streaming: Enabled
+[2020.04.09-15.03.41:856][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.09-15.03.41:878][  0]LogInit: Transaction tracking system initialized
+[2020.04.09-15.03.41:902][  0]BlueprintLog: New page: Editor Load
+[2020.04.09-15.03.41:968][  0]LocalizationService: Localization service is disabled
+[2020.04.09-15.03.42:204][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.09-15.03.42:204][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.09-15.03.42:204][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.09-15.03.42:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.09-15.03.42:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.09-15.03.42:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.09-15.03.42:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.09-15.03.42:305][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/' took 0.01s
+[2020.04.09-15.03.42:312][  0]SourceControl: Source control is disabled
+[2020.04.09-15.03.42:312][  0]LightingResults: New page: Lighting Build
+[2020.04.09-15.03.42:315][  0]MapCheck: New page: Map Check
+[2020.04.09-15.03.42:315][  0]LightingResults: New page: Lighting Build
+[2020.04.09-15.03.42:818][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-15.03.42:825][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.09-15.03.42:849][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.09-15.03.42:907][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.499ms to complete.
+[2020.04.09-15.03.42:907][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.594
+[2020.04.09-15.03.43:072][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-15.03.43:080][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-15.03.43:088][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-15.03.43:097][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-15.03.43:103][  0]LogCollectionManager: Loaded 0 collections in 0.001507 seconds
+[2020.04.09-15.03.43:145][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Collections/' took 0.01s
+[2020.04.09-15.03.43:145][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Developers/DaultonNelson/Collections/' took 0.01s
+[2020.04.09-15.03.43:145][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Collections/' took 0.01s
+[2020.04.09-15.03.43:145][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.04.09-15.03.43:155][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2572 classes and 603 folders.
+[2020.04.09-15.03.43:173][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.09-15.03.43:251][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.09-15.03.43:256][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.04.09-15.03.44:247][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.04.09-15.03.44:345][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.09-15.03.44:349][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.09-15.03.44:358][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.09-15.03.44:443][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.09-15.03.44:596][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PortInvadeProject
+[2020.04.09-15.03.44:596][  0]LogTemp: CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.09-15.03.44:596][  0]LogTemp: Initial Dir: D:\Program Files\Unreal\Engine\UE_4.20
+[2020.04.09-15.03.44:596][  0]LogTemp: Env CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.09-15.03.44:596][  0]LogTemp: BranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries
+[2020.04.09-15.03.44:596][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DaultonNelson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.04.09-15.03.44:612][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.09-15.03.44:612][  0]LogLoad: (Engine Initialization) Total time: 11.51 seconds
+[2020.04.09-15.03.44:612][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.09-15.03.44:651][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.09-15.03.44:678][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-15.03.44:698][  1]LogAssetRegistry: Asset discovery search completed in 6.0693 seconds
+[2020.04.09-15.03.44:699][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.09-15.03.44:699][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2020.04.09-15.03.45:645][109]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-15.03.52:646][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-15.03.52:849][954]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/GameplayUI.GameplayUI
+[2020.04.09-15.03.53:431][954]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2020.04.09-15.03.54:173][954]LogLinker: Warning: Can't resolve asset name
+[2020.04.09-15.03.54:180][954]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.09-15.11.17:945][676]LogSlate: Window 'GameplayUI' being destroyed
+[2020.04.09-15.11.19:199][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-15.27.03:373][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.027
+[2020.04.09-15.27.03:376][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/GameplayUI] ([1] browsable assets)...
+[2020.04.09-15.27.03:376][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/GameplayUI]
+[2020.04.09-15.27.03:770][504]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI_Auto190EAAA5045EAAA094E1C55BF0739EB09.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Autosaves/Game/UI/GameplayUI_Auto1.uasset'
+[2020.04.09-15.27.03:772][504]LogFileHelpers: Auto-saving content packages took 0.398
+[2020.04.09-15.28.28:297][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.28.28:323][843]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI1B88475B4C421A3165AE688C6C21958B.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.28.43:980][522]LogSlate: Took 0.001711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.04.09-15.28.55:137][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.28.55:169][710]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI71D5621D47B85E363CB26CB3263B85A8.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.29.20:246][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.29.20:260][401]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI7590C0D8451714B19A7AD2B1B0972E4B.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.29.24:005][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.29.24:020][815]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIF8E1F9BA4B189DF6CF2DCC970C37E6FE.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.29.40:850][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.29.40:864][653]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI192B2FFA42522EC1073C12B873A083C3.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.29.45:830][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.29.45:862][210]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIEA3FCEF040D92B5CA132EDAC19F48D4F.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.30.13:545][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.30.13:560][661]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI7713D4B04D8A152930E1C587E0A45B7F.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.30.19:473][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.30.19:488][286]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI98A5B87A4B36C9698089D89D410ED63A.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.35.24:271][733]AssetReimport: New page: Outstanding source content changes 7:35:24 AM
+[2020.04.09-15.35.24:381][733]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/2DAssets/PlayerShip_Icon.png)
+[2020.04.09-15.35.24:553][734]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/PlayerShip_Icon23AEDAF84DE52AEF45EDAAA26121D96E.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/2DAssets/PlayerShip_Icon.uasset'
+[2020.04.09-15.35.27:578][ 51]AssetReimport: Importing new asset /Game/2DAssets/PlayerShip_Icon.
+[2020.04.09-15.35.27:591][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.35.27:729][ 51]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIC75990C44042BFC58BCB3C8B5CA413D6.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.35.28:517][136]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-15.39.41:559][358]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DAssets/PlayerShip_Icon.PlayerShip_Icon
+[2020.04.09-15.39.41:627][358]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2020.04.09-15.40.38:873][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.40.38:896][757]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI251B5DCA47A0E83F8786AE872EADA7ED.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.40.42:887][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.40.42:904][171]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI74954B8442CD935BF67659A4A47A4CEB.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.40.54:506][404]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_7.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_14.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_6.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_5.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_4.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_2.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_3.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:560][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_8.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_GameplayUI_C_9:WidgetTree.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_15.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_13.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_11.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_12.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_GameplayUI_C_13:WidgetTree.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/GameplayUI.GameplayUI_C:WidgetTree.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_16.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameplayUI_C_17.WidgetTree_0.CanvasPanel_0
+[2020.04.09-15.41.26:561][580]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5) from referencer (Image /Engine/UMG/Editor/Transient.Lives_Icon_0).  Import failed...
+[2020.04.09-15.41.26:561][580]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_5"''
+[2020.04.09-15.41.52:020][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.41.52:059][199]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIDA81536D422FC337ECC0F98B99A721F2.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.42.17:263][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.42.17:284][697]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI10C551824C58B07AE5B28B85EF0B5CD4.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.42.39:497][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.42.39:514][964]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI741E4ABD4504326F579330A75BB9632B.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.42.43:044][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.42.43:063][337]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI25034AD1495A3F8D085D17AA7BB90FA7.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.42.59:742][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.42.59:761][ 51]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIFC4B3E8C4E315B3AFD4FCCBC8633AC7F.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.43.05:406][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.43.05:424][644]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI93E650F948F005EBC34DE2B18FA6F2AE.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.43.13:980][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.43.13:997][531]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI8636EF2640BBE0CC75043295E5B26ECA.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.43.27:076][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.43.27:100][912]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIBD3AB95A405343CBD9C703B74F254B08.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.44.15:140][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.44.15:165][888]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIF1097E2E400D5FD6251D2693608419EC.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.44.18:628][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.44.18:644][262]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIF4423F834A1CDA7F313C17BF1C755C18.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.45.15:527][758]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.039
+[2020.04.09-15.45.15:530][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/GameplayUI] ([1] browsable assets)...
+[2020.04.09-15.45.15:530][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/GameplayUI]
+[2020.04.09-15.45.15:553][758]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI_Auto279CBCD794D9FC9F84A9AD1862E11653C.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Autosaves/Game/UI/GameplayUI_Auto2.uasset'
+[2020.04.09-15.45.15:554][758]LogFileHelpers: Auto-saving content packages took 0.026
+[2020.04.09-15.45.44:318][491]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/GameplayUI.GameplayUI:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_2:GameplayUI_C_23.WidgetTree_0.HorizontalBox_1
+[2020.04.09-15.45.44:318][491]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/GameplayUI.GameplayUI:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_2:GameplayUI_C_24.WidgetTree_0.HorizontalBox_1
+[2020.04.09-15.45.44:318][491]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/GameplayUI.GameplayUI:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_2:GameplayUI_C_25.WidgetTree_0.HorizontalBox_1
+[2020.04.09-15.45.44:318][491]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/GameplayUI.GameplayUI:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_2:GameplayUI_C_26.WidgetTree_0.HorizontalBox_1
+[2020.04.09-15.45.44:318][491]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/GameplayUI.GameplayUI:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_1).  Import failed...
+[2020.04.09-15.45.44:318][491]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_1.HorizontalBoxSlot_3"''
+[2020.04.09-15.45.47:328][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.45.47:379][818]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIEB10CFDE49B2BFDFE9BC738C8DC07D8F.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.45.54:509][609]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-15.46.00:811][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.46.00:836][323]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUID89CE14641CE63810E86929C912F60FD.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.46.34:652][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.46.34:670][ 27]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI36F3E0274A6897D1740961BEAE486845.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.46.35:677][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.46.35:695][131]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI1F1063814B94C1FF8859FB87156663C6.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.46.41:327][759]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2020.04.09-15.47.18:719][581]LogSlate: Took 0.000576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.09-15.47.21:885][928]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_DefaultD463CCBF412AD2F6037C18BEB047D2B8.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.04.09-15.47.21:919][928]LogFileHelpers: Saving map 'Minimal_Default' took 0.279
+[2020.04.09-15.47.22:937][ 48]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-15.47.22:957][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.47.22:958][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-15.47.22:970][ 48]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 7:47:22 AM)
+[2020.04.09-15.47.22:970][ 48]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-15.47.22:974][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003528s)
+[2020.04.09-15.47.22:974][ 48]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-15.47.22:975][ 48]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2020.04.09-15.47.22:975][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004459s)
+[2020.04.09-15.47.23:084][ 48]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-15.47.23:193][ 48]LogInit: FAudioDevice initialized.
+[2020.04.09-15.47.23:206][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-15.47.23:295][ 48]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-15.47.23:297][ 48]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.04.09-11.47.23
+[2020.04.09-15.47.23:298][ 48]LogWorld: Bringing up level for play took: 0.001542
+[2020.04.09-15.47.23:311][ 48]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.09-15.47.23:321][ 48]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2020.04.09-15.47.23:321][ 48]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-15.47.23:322][ 48]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-15.47.23:322][ 48]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-15.47.23:418][ 48]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-15.47.23:420][ 48]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.083
+[2020.04.09-15.47.23:420][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.47.23:472][ 48]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2020.04.09-15.47.28:225][604]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.47.28:226][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-15.47.28:242][604]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-15.47.28:285][604]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-15.47.28:286][604]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.47.28:349][605]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.09-15.47.35:945][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.47.35:967][501]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIC5DE583942B146C743FCEFB36577094E.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.50.00:618][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-15.50.07:615][855]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CustomPlayerController.CustomPlayerController
+[2020.04.09-15.50.11:025][173]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CustomPlayerController.CustomPlayerController
+[2020.04.09-15.50.24:765][663]LogSlate: Took 0.101638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.04.09-15.50.34:276][746]BlueprintLog: New page: Compile CustomPlayerController
+[2020.04.09-15.51.19:670][713]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/CustomPlayerController697DF92B41E00DD155D0D4A200F1E1A6.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/CustomPlayerController.uasset'
+[2020.04.09-15.51.22:686][ 71]BlueprintLog: New page: Compile CustomPlayerController
+[2020.04.09-15.51.22:689][ 71]LogBlueprint: Error: [Compiler CustomPlayerController] The type of  Object  is undetermined.  Connect something to  Cast To GameplayUI  to imply a specific type.
+[2020.04.09-15.51.22:690][ 71]LogBlueprint: Error: [Compiler CustomPlayerController] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.04.09-15.51.22:816][ 71]LogBlueprint: Warning: [Compiler CustomPlayerController] [2869.71] Compile of CustomPlayerController failed. 2 Fatal Issue(s) 0 Warning(s) [in 129 ms] (/Game/Blueprints/CustomPlayerController.CustomPlayerController)
+[2020.04.09-15.51.54:355][689]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/CustomPlayerController65FA3DAB4676F09FA5FEE694E08DD0FC.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/CustomPlayerController.uasset'
+[2020.04.09-15.51.55:045][771]BlueprintLog: New page: Compile CustomPlayerController
+[2020.04.09-16.39.50:336][877]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default521F85594989BB04DC0DC787B4E47B18.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.04.09-16.39.50:364][877]LogFileHelpers: Saving map 'Minimal_Default' took 0.283
+[2020.04.09-16.39.51:213][928]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-16.39.51:231][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-16.39.51:231][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-16.39.51:231][928]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 8:39:51 AM)
+[2020.04.09-16.39.51:232][928]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-16.39.51:235][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003134s)
+[2020.04.09-16.39.51:237][928]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-16.39.51:237][928]LogPlayLevel: PIE: World Init took: (0.002341s)
+[2020.04.09-16.39.51:237][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005735s)
+[2020.04.09-16.39.51:347][928]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-16.39.51:458][928]LogInit: FAudioDevice initialized.
+[2020.04.09-16.39.51:473][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-16.39.51:554][928]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-16.39.51:557][928]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.09-12.39.51
+[2020.04.09-16.39.51:557][928]LogWorld: Bringing up level for play took: 0.001747
+[2020.04.09-16.39.51:570][928]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.09-16.39.51:570][928]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-16.39.51:570][928]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-16.39.51:570][928]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-16.39.51:571][928]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-16.39.51:572][928]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.235
+[2020.04.09-16.39.51:672][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-16.39.54:448][ 82]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-16.39.55:523][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-16.39.55:523][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-16.39.55:539][142]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-16.39.55:579][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-16.39.55:579][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-16.39.55:637][143]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.04.09-16.40.02:245][532]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CustomPlayerController.CustomPlayerController
+[2020.04.09-16.41.50:598][113]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/CustomPlayerController4F0EF852450FACAD7D298790A664E43D.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/CustomPlayerController.uasset'
+[2020.04.09-16.41.55:286][392]BlueprintLog: New page: Compile CustomPlayerController
+[2020.04.09-16.49.55:006][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.085
+[2020.04.09-16.49.55:011][846]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomPlayerController] ([1] browsable assets)...
+[2020.04.09-16.49.55:011][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomPlayerController]
+[2020.04.09-16.49.55:045][846]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/CustomPlayerController_Auto34EB5E84B4FA39A00AF891A9B339B4F31.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Autosaves/Game/Blueprints/CustomPlayerController_Auto3.uasset'
+[2020.04.09-16.49.55:048][846]LogFileHelpers: Auto-saving content packages took 0.040
+[2020.04.09-16.52.29:118][621]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/CustomPlayerController8DFCE0104C59694016DB82A783A54A0D.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/CustomPlayerController.uasset'
+[2020.04.09-16.52.30:160][664]BlueprintLog: New page: Compile CustomPlayerController
+[2020.04.09-16.57.54:280][271]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-16.58.10:409][716]LogEditorTransaction: Undo Move Node
+[2020.04.09-16.58.20:600][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-16.58.20:673][121]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIC7BD2C564526EFBB70F7CFBCFD5E4A1E.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-16.58.43:978][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-16.58.44:049][ 53]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI0A59468B493B6D5EE8DCE683575F5ABE.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-16.58.50:016][369]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-16.59.16:521][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-16.59.16:611][869]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUID2356F574B59A27FBE86D7BA9A766844.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-16.59.19:093][971]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-16.59.21:156][ 29]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PlayerShipPawn.PlayerShipPawn
+[2020.04.09-16.59.42:286][  8]BlueprintLog: New page: Compile PlayerShipPawn
+[2020.04.09-16.59.57:664][793]BlueprintLog: New page: Compile PlayerShipPawn
+[2020.04.09-17.00.11:867][385]BlueprintLog: New page: Compile PlayerShipPawn
+[2020.04.09-17.00.11:898][385]LogClass: Warning: Type mismatch in CurrentScore of PlayerShipPawn_C - Previous (BoolProperty) Current(IntProperty) for package:  FObjectReader
+[2020.04.09-17.00.14:010][448]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/PlayerShipPawnB9978AB544C08B4A3AFE0E86F2F21A98.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/PlayerShipPawn.uasset'
+[2020.04.09-17.00.36:132][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-17.00.36:225][140]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI48B3B6704F2CD8EA2A13DEB078260DE9.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-17.00.38:522][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-17.00.38:594][268]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI941CD5134AE85802AFEE1A9A9AA51E29.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-17.00.42:910][476]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-17.01.43:657][ 61]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-17.02.01:166][315]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyPrefab.EnemyPrefab
+[2020.04.09-17.02.26:595][615]BlueprintLog: New page: Compile EnemyPrefab
+[2020.04.09-17.02.39:428][206]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyPrefab07A8E74F48F767FD5B85758FFC292727.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyPrefab.uasset'
+[2020.04.09-17.02.42:440][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-17.02.42:468][312]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIAEAC79D44AB3535701771A8E3EB25EA2.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-17.03.14:325][716]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyPrefab44F8052D497B33D43F4EB0A38056A07C.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyPrefab.uasset'
+[2020.04.09-17.03.15:753][787]BlueprintLog: New page: Compile EnemyPrefab
+[2020.04.09-17.04.16:334][600]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyPrefab86C6AD3540E4232861C4628BEB44F715.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyPrefab.uasset'
+[2020.04.09-17.05.21:337][225]BlueprintLog: New page: Compile EnemyPrefab
+[2020.04.09-17.05.24:619][338]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-17.05.24:659][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.05.24:659][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-17.05.24:660][338]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 9:05:24 AM)
+[2020.04.09-17.05.24:660][338]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-17.05.24:663][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003112s)
+[2020.04.09-17.05.24:664][338]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-17.05.24:664][338]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2020.04.09-17.05.24:664][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004087s)
+[2020.04.09-17.05.24:875][338]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-17.05.25:128][338]LogInit: FAudioDevice initialized.
+[2020.04.09-17.05.25:152][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.05.25:297][338]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-17.05.25:303][338]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.09-13.05.25
+[2020.04.09-17.05.25:304][338]LogWorld: Bringing up level for play took: 0.004572
+[2020.04.09-17.05.25:320][338]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.09-17.05.25:321][338]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.05.25:322][338]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.05.25:322][338]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.05.25:328][338]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.05.25:331][338]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.006
+[2020.04.09-17.05.25:332][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.05.27:973][408]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.05.32:141][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.05.32:142][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.05.32:209][533]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-17.05.32:296][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-17.05.32:297][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.05.32:470][534]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.04.09-17.05.33:292][568]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyPrefabACBC467A4A46D8EEBA0DF8B5C6D34EF2.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyPrefab.uasset'
+[2020.04.09-17.06.30:206][241]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-17.06.31:516][276]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-17.06.31:906][276]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.06.31:907][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-17.06.31:907][276]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 9:06:31 AM)
+[2020.04.09-17.06.31:907][276]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-17.06.31:913][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005619s)
+[2020.04.09-17.06.31:914][276]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-17.06.31:915][276]LogPlayLevel: PIE: World Init took: (0.001822s)
+[2020.04.09-17.06.31:915][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007780s)
+[2020.04.09-17.06.32:093][276]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-17.06.32:344][276]LogInit: FAudioDevice initialized.
+[2020.04.09-17.06.32:397][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.06.32:552][276]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-17.06.32:557][276]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.09-13.06.32
+[2020.04.09-17.06.32:559][276]LogWorld: Bringing up level for play took: 0.003270
+[2020.04.09-17.06.32:573][276]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.09-17.06.32:574][276]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.06.32:574][276]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.06.32:575][276]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.06.32:580][276]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.06.32:587][276]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.25
+[2020.04.09-17.06.32:588][276]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.06.34:958][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.06.34:960][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.06.35:023][344]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-17.06.35:090][344]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-17.06.35:090][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.06.35:257][345]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.09-17.06.44:481][664]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.09-17.06.45:457][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-17.06.45:564][704]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI091C11FD4F69E3C5B57A39BD6E63BF32.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-17.07.02:125][365]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-17.07.02:886][383]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-17.07.02:912][383]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.02:912][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-17.07.02:912][383]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 9:07:02 AM)
+[2020.04.09-17.07.02:912][383]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-17.07.02:915][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002595s)
+[2020.04.09-17.07.02:916][383]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-17.07.02:916][383]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2020.04.09-17.07.02:916][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003804s)
+[2020.04.09-17.07.03:087][383]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-17.07.03:235][383]LogInit: FAudioDevice initialized.
+[2020.04.09-17.07.03:254][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.07.03:358][383]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-17.07.03:363][383]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.09-13.07.03
+[2020.04.09-17.07.03:364][383]LogWorld: Bringing up level for play took: 0.003083
+[2020.04.09-17.07.03:379][383]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.09-17.07.03:380][383]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.07.03:380][383]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.07.03:380][383]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.07.03:385][383]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.07.03:391][383]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.055
+[2020.04.09-17.07.03:392][383]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.05:197][433]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.06:682][477]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.07:420][497]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.07:714][505]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.07:905][510]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.08:055][514]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.12:909][649]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.13:131][657]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.13:298][662]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.13:479][667]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.13:628][671]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.13:782][675]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.13:977][680]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.14:118][684]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.14:278][688]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.14:394][691]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.14:544][695]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.14:705][699]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.14:846][703]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.22:296][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.22:297][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.07.22:360][900]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-17.07.22:432][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-17.07.22:433][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.22:543][901]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.04.09-17.07.23:452][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-17.07.23:538][948]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIABB09B4B4E73E8443E27B49DFE8604DA.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-17.07.31:586][270]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default8C036CEC453B7BF3F248D990B036468D.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.04.09-17.07.31:996][270]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default_BuiltData206C37A94D1304006C60D38964995526.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2020.04.09-17.07.40:088][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-17.07.40:236][516]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-17.07.40:274][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.40:274][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-17.07.40:275][516]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 9:07:40 AM)
+[2020.04.09-17.07.40:275][516]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-17.07.40:285][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009566s)
+[2020.04.09-17.07.40:287][516]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-17.07.40:287][516]LogPlayLevel: PIE: World Init took: (0.002070s)
+[2020.04.09-17.07.40:287][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012116s)
+[2020.04.09-17.07.40:677][516]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-17.07.41:105][516]LogInit: FAudioDevice initialized.
+[2020.04.09-17.07.41:160][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.07.41:297][516]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-17.07.41:300][516]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.09-13.07.41
+[2020.04.09-17.07.41:301][516]LogWorld: Bringing up level for play took: 0.002703
+[2020.04.09-17.07.41:316][516]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.07.41:317][516]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.07.41:317][516]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.07.41:321][516]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.07.41:326][516]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.989
+[2020.04.09-17.07.41:327][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.44:423][564]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.48:822][630]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.51:091][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.51:092][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.07.51:154][664]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-17.07.51:240][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-17.07.51:240][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.51:398][665]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.04.09-17.07.53:201][712]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-17.07.53:228][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.53:228][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-17.07.53:228][712]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 9:07:53 AM)
+[2020.04.09-17.07.53:228][712]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-17.07.53:232][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003254s)
+[2020.04.09-17.07.53:233][712]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-17.07.53:233][712]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2020.04.09-17.07.53:233][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004483s)
+[2020.04.09-17.07.53:463][712]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-17.07.53:807][712]LogInit: FAudioDevice initialized.
+[2020.04.09-17.07.53:825][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.07.53:917][712]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-17.07.53:919][712]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.09-13.07.53
+[2020.04.09-17.07.53:919][712]LogWorld: Bringing up level for play took: 0.001156
+[2020.04.09-17.07.53:932][712]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.09-17.07.53:933][712]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.07.53:933][712]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-17.07.53:933][712]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.07.53:938][712]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-17.07.53:945][712]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.609
+[2020.04.09-17.07.53:946][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.55:239][749]LogBlueprintUserMessages: [PlayerShipPawn_C_0] Fire Shot
+[2020.04.09-17.07.59:240][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.59:241][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-17.07.59:290][869]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-17.07.59:335][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-17.07.59:335][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-17.07.59:423][870]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.04.09-17.08.23:752][980]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:146 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2020.04.09-17.08.23:752][980]LogD3D11RHI: [Aftermath] GDynamicRHI=000001CFFB1940C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.04.09-17.08.23:752][980]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.04.09-17.08.40:418][980]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.04.09-17.08.40:464][980]LogWindows: Error: === Critical error: ===
+[2020.04.09-17.08.40:464][980]LogWindows: Error: 
+[2020.04.09-17.08.40:465][980]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2020.04.09-17.08.40:465][980]LogWindows: Error: Rendering thread exception:
+[2020.04.09-17.08.40:465][980]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
+[2020.04.09-17.08.40:466][980]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2020.04.09-17.08.40:466][980]LogWindows: Error: 
+[2020.04.09-17.08.40:466][980]LogWindows: Error: 
+[2020.04.09-17.08.40:466][980]LogWindows: Error: [Callstack] 0x00007ff992fea859 KERNELBASE.dll!UnknownFunction []
+[2020.04.09-17.08.40:466][980]LogWindows: Error: [Callstack] 0x00007ff987446850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.09-17.08.40:466][980]LogWindows: Error: [Callstack] 0x00007ff91a8562fc UE4Editor-Core.dll!UnknownFunction []
+[2020.04.09-17.08.40:466][980]LogWindows: Error: [Callstack] 0x00007ff91a7e51db UE4Editor-Core.dll!UnknownFunction []
+[2020.04.09-17.08.40:466][980]LogWindows: Error: [Callstack] 0x00007ff8ffa0adea UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.09-17.08.40:466][980]LogWindows: Error: [Callstack] 0x00007ff8ffa0e6e4 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.09-17.08.40:467][980]LogWindows: Error: [Callstack] 0x00007ff8ff9e5951 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.09-17.08.40:467][980]LogWindows: Error: [Callstack] 0x00007ff8ff9fabf8 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.09-17.08.40:467][980]LogWindows: Error: [Callstack] 0x00007ff986a1b106 UE4Editor-RHI.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff8ff7a1b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff8ff7a7d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff91a671f92 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff91a672456 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff9874c75f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff9874c8574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff91aab6b7c UE4Editor-Core.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff91aab17c7 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff995317bd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.09-17.08.40:468][980]LogWindows: Error: [Callstack] 0x00007ff995f8ced1 ntdll.dll!UnknownFunction []
+[2020.04.09-17.08.40:469][980]LogWindows: Error: 
+[2020.04.09-17.08.40:469][980]LogWindows: Error: 
+[2020.04.09-17.08.40:469][980]LogWindows: Error: 
+[2020.04.09-17.08.40:469][980]LogWindows: Error: 
+[2020.04.09-17.08.40:522][980]LogExit: Executing StaticShutdownAfterError
+[2020.04.09-17.08.40:531][980]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.04.09-17.08.40:538][980]Log file closed, 04/09/20 13:08:40

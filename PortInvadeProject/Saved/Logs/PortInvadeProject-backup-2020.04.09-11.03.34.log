@@ -1,0 +1,781 @@
+﻿Log file open, 04/09/20 10:49:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PortInvadeProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.309502
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.602s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.091s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.04.09-14.49.11:427][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-14.49.11:427][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.09-14.49.11:480][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.09-14.49.11:481][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.04.09-14.49.11:481][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.09-14.49.11:482][  0]LogInit: Computer: MSI
+[2020.04.09-14.49.11:482][  0]LogInit: User: DaultonNelson
+[2020.04.09-14.49.11:482][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.09-14.49.11:482][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.09-14.49.11:483][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.09-14.49.11:483][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.09-14.49.11:483][  0]LogMemory: Process Physical Memory: 102.55 MB used, 102.55 MB peak
+[2020.04.09-14.49.11:483][  0]LogMemory: Process Virtual Memory: 90.66 MB used, 90.66 MB peak
+[2020.04.09-14.49.11:484][  0]LogMemory: Physical Memory: 8733.92 MB used,  7537.49 MB free, 16271.41 MB total
+[2020.04.09-14.49.11:484][  0]LogMemory: Virtual Memory: 4613.65 MB used,  7537.49 MB free, 134217728.00 MB total
+[2020.04.09-14.49.12:604][  0]LogInit: Using OS detected language (en-US).
+[2020.04.09-14.49.12:604][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.09-14.49.12:606][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.09-14.49.12:952][  0]LogStreaming: Display: Took  0.347s to InitEngineTextLocalization.
+[2020.04.09-14.49.12:952][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.09-14.49.13:040][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.09-14.49.13:040][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.09-14.49.13:314][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-14.49.13:314][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.09-14.49.13:395][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.04.09-14.49.13:395][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.09-14.49.13:408][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.04.09-14.49.13:408][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.09-14.49.13:410][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.09-14.49.13:410][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.09-14.49.13:411][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.09-14.49.13:453][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.09-14.49.13:453][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.09-14.49.13:453][  0]LogWindows: EnumDisplayDevices:
+[2020.04.09-14.49.13:453][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.04.09-14.49.13:454][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.09-14.49.13:454][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.09-14.49.13:455][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-14.49.13:455][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-14.49.13:455][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-14.49.13:456][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.09-14.49.13:456][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.09-14.49.13:456][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.04.09-14.49.13:456][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.09-14.49.13:456][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.09-14.49.13:456][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.09-14.49.13:504][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.09-14.49.13:515][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.09-14.49.13:518][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Intermediate/Shaders/WorkingDirectory/21332/).
+[2020.04.09-14.49.13:518][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DaultonNelson/AppData/Local/Temp/UnrealShaderWorkingDir/E77450984DE933C81FA538B626E1F46E/'.
+[2020.04.09-14.49.13:832][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.09-14.49.13:845][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.09-14.49.13:858][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.09-14.49.13:871][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.09-14.49.13:885][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.09-14.49.13:898][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.09-14.49.13:911][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.09-14.49.13:924][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.09-14.49.13:930][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.09-14.49.14:011][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.09-14.49.14:072][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.09-14.49.14:072][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.09-14.49.14:095][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.09-14.49.14:095][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.09-14.49.14:108][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.09-14.49.14:120][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.09-14.49.14:132][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.09-14.49.14:145][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.09-14.49.14:154][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.04.09-14.49.14:154][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.09-14.49.14:206][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.09-14.49.14:206][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.09-14.49.14:206][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.09-14.49.14:974][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.09-14.49.15:023][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.09-14.49.15:023][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.04.09-14.49.15:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.09-14.49.15:023][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.09-14.49.15:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.09-14.49.15:023][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.09-14.49.15:037][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.09-14.49.15:050][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DaultonNelson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.09-14.49.15:050][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.09-14.49.15:050][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.09-14.49.15:067][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.09-14.49.15:069][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.09-14.49.15:069][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.09-14.49.15:146][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2020.04.09-14.49.15:448][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-14.49.15:574][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.09-14.49.15:577][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.09-14.49.15:577][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.09-14.49.15:577][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.09-14.49.15:577][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.09-14.49.15:593][  0]LogNetVersion: PortInvadeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2198381219)
+[2020.04.09-14.49.16:196][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.145811 seconds
+[2020.04.09-14.49.16:202][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.04.09-14.49.16:202][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.04.09-14.49.16:202][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.09-14.49.17:084][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.09-14.49.17:097][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.09-14.49.17:473][  0]SourceControl: Source control is disabled
+[2020.04.09-14.49.17:473][  0]SourceControl: Source control is disabled
+[2020.04.09-14.49.17:474][  0]SourceControl: Source control is disabled
+[2020.04.09-14.49.17:475][  0]SourceControl: Source control is disabled
+[2020.04.09-14.49.17:697][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.09-14.49.17:998][  0]LogOcInput: OculusInput pre-init called
+[2020.04.09-14.49.18:055][  0]LogEngine: Initializing Engine...
+[2020.04.09-14.49.18:056][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-14.49.18:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.09-14.49.18:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.09-14.49.18:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.09-14.49.18:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.09-14.49.18:267][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.09-14.49.18:282][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.09-14.49.18:404][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-14.49.18:716][  0]LogInit: FAudioDevice initialized.
+[2020.04.09-14.49.18:716][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.09-14.49.18:801][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.09-14.49.18:803][  0]LogInit: Texture streaming: Enabled
+[2020.04.09-14.49.18:822][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.09-14.49.18:837][  0]LogInit: Transaction tracking system initialized
+[2020.04.09-14.49.18:862][  0]BlueprintLog: New page: Editor Load
+[2020.04.09-14.49.18:937][  0]LocalizationService: Localization service is disabled
+[2020.04.09-14.49.19:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.09-14.49.19:328][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.09-14.49.19:328][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.09-14.49.19:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.09-14.49.19:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.09-14.49.19:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.09-14.49.19:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.09-14.49.19:438][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/' took 0.01s
+[2020.04.09-14.49.19:439][  0]SourceControl: Source control is disabled
+[2020.04.09-14.49.19:439][  0]LightingResults: New page: Lighting Build
+[2020.04.09-14.49.19:442][  0]MapCheck: New page: Map Check
+[2020.04.09-14.49.19:442][  0]LightingResults: New page: Lighting Build
+[2020.04.09-14.49.20:694][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-14.49.20:776][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.09-14.49.20:819][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.09-14.49.20:878][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.601ms to complete.
+[2020.04.09-14.49.20:878][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.439
+[2020.04.09-14.49.21:469][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-14.49.21:480][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-14.49.21:492][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-14.49.21:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-14.49.21:590][  0]LogCollectionManager: Loaded 0 collections in 0.001478 seconds
+[2020.04.09-14.49.21:982][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Collections/' took 0.01s
+[2020.04.09-14.49.21:982][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Developers/DaultonNelson/Collections/' took 0.01s
+[2020.04.09-14.49.21:982][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Collections/' took 0.01s
+[2020.04.09-14.49.21:982][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.04.09-14.49.22:004][  0]LogContentBrowser: Native class hierarchy populated in 0.0202 seconds. Added 2572 classes and 603 folders.
+[2020.04.09-14.49.22:112][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.09-14.49.23:517][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.09-14.49.23:589][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.04.09-14.49.27:968][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.04.09-14.49.28:155][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PortInvadeProject
+[2020.04.09-14.49.28:155][  0]LogTemp: CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.09-14.49.28:155][  0]LogTemp: Initial Dir: D:\Program Files\Unreal\Engine\UE_4.20
+[2020.04.09-14.49.28:155][  0]LogTemp: Env CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.09-14.49.28:155][  0]LogTemp: BranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries
+[2020.04.09-14.49.28:155][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DaultonNelson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.04.09-14.49.28:155][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.09-14.49.28:165][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.09-14.49.28:270][  0]LogSlate: Took 0.023915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.09-14.49.28:603][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.09-14.49.29:055][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.09-14.49.29:055][  0]LogLoad: (Engine Initialization) Total time: 22.33 seconds
+[2020.04.09-14.49.29:055][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.09-14.49.29:167][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.09-14.49.29:290][  0]LogSlate: Took 0.037382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-14.49.29:453][  2]LogAssetRegistry: Asset discovery search completed in 14.3287 seconds
+[2020.04.09-14.49.29:454][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.04.09-14.49.29:455][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2020.04.09-14.49.30:221][ 73]LogSlate: Took 0.000616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-14.49.35:048][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-14.49.37:078][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-14.50.08:511][506]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/GameplayUI.GameplayUI
+[2020.04.09-14.50.10:161][506]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
+[2020.04.09-14.50.12:288][506]LogSlate: Took 0.017103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.09-14.50.21:110][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.50.21:160][145]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIF02DD1704C2F8D986835739A936E5858.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.50.22:455][230]LogSlate: Window 'GameplayUI' being destroyed
+[2020.04.09-14.53.33:499][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.53.34:101][ 73]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIC568EFB14F32EAC4EFB5989CBB29D282.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.54.16:302][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.54.16:313][480]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIB349340646F0222F63044381E7616198.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.54.30:144][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.54.30:155][741]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIA574B93440C7A34522D09183D1A8B249.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.55.02:900][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.55.02:921][ 50]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI522461B343773FE40F6868950CF771D3.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.55.52:112][219]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-14.56.46:718][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.56.46:732][  2]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI09AB112A447244A48259C38F4DB0D224.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.56.58:221][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.56.58:232][173]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIF44DFF0F4116D5F429FA78BC6226C080.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.57.07:682][203]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-14.57.14:056][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.57.14:067][889]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIAC7B3BD143B26C208CB8E78E050A51C5.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.57.28:061][318]Cmd: TRANSACTION UNDO
+[2020.04.09-14.57.28:061][318]LogEditorTransaction: Undo Move Widget
+[2020.04.09-14.57.36:196][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.57.36:207][184]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI917860724547F2AAFB8C9A9402BE7DA0.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.57.48:010][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.57.48:021][410]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIC112FB3E491F4FBBC3470F87F9229F9C.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.57.55:594][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.57.55:604][229]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI6A92663041422F215DDBA6968EA63079.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.58.08:352][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.58.08:374][408]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUICC337A1F4FAF7459E69289AC689E8C0E.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.58.41:878][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.58.41:901][234]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI4B30AFBC48B4D1743FBD3AA2F8A7ED2B.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.58.45:355][580]LogSlate: Took 0.150977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.04.09-14.58.54:217][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.58.54:228][504]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI59DA36B840939AD5E069C9A4D614D02C.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.59.04:890][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.59.04:902][677]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIB7110BFA45D7920DAAEBFBAF6497ADB4.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.59.11:856][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.59.11:873][402]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI3484BC7541E663C9E1E9C0AB019A51E2.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.59.27:132][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-14.59.27:144][ 78]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUIE4E7B0FA4BF9E892EF412DA424037576.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-14.59.28:764][249]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-14.59.48:755][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_GameplayUI_C_16:WidgetTree.CanvasPanel_0
+[2020.04.09-14.59.48:755][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_16.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:755][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_2.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:755][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_3.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:755][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_4.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_5.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_6.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_7.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_8.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_9.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_10.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_15.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_11.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_14.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_12.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_13.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:756][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree:CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_24.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_25.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_20.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_21.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_22.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:GameplayUI_C_23.WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_GameplayUI_C_23:WidgetTree.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/GameplayUI.GameplayUI_C:WidgetTree.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.GameplayUI_C_1:WidgetTree_0.CanvasPanel_0
+[2020.04.09-14.59.48:757][ 98]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/GameplayUI.GameplayUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_PlayerScore).  Import failed...
+[2020.04.09-14.59.48:757][ 98]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_0"''
+[2020.04.09-15.00.16:547][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.00.16:563][ 59]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI0318D1F24EB4F3714D6E6A98426B433D.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.00.39:968][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.00.39:997][352]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI2698EEF14BD98A128196A3B59689C992.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.00.51:846][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameplayUI" FILE="../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset" SILENT=true
+[2020.04.09-15.00.51:859][597]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/GameplayUI9DC795F94F4EF1606C70219DA03639C4.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/UI/GameplayUI.uasset'
+[2020.04.09-15.00.54:620][911]BlueprintLog: New page: Compile GameplayUI
+[2020.04.09-15.01.18:943][623]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2020.04.09-15.01.42:248][144]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.09-15.01.49:046][954]BlueprintLog: New page: Compile Minimal_Default
+[2020.04.09-15.01.51:321][182]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.09-15.01.51:452][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.01.51:452][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-15.01.51:513][182]PIE: New page: PIE session: Minimal_Default (Apr 9, 2020, 7:01:51 AM)
+[2020.04.09-15.01.51:513][182]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.09-15.01.51:528][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014202s)
+[2020.04.09-15.01.51:529][182]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.09-15.01.51:530][182]LogPlayLevel: PIE: World Init took: (0.002208s)
+[2020.04.09-15.01.51:530][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016970s)
+[2020.04.09-15.01.51:783][182]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.09-15.01.51:898][182]LogInit: FAudioDevice initialized.
+[2020.04.09-15.01.51:922][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-15.01.52:022][182]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.09-15.01.52:024][182]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.04.09-11.01.52
+[2020.04.09-15.01.52:073][182]LogWorld: Bringing up level for play took: 0.049454
+[2020.04.09-15.01.52:089][182]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.09-15.01.52:196][182]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2020.04.09-15.01.52:197][182]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-15.01.52:197][182]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.09-15.01.52:197][182]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-15.01.52:211][182]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.09-15.01.52:213][182]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.876
+[2020.04.09-15.01.52:229][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.01.52:316][182]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2020.04.09-15.01.54:944][453]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.09-15.01.55:054][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.01.55:102][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-15.01.55:103][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.09-15.01.55:206][454]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.09-15.01.56:019][517]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default16CB86B844C7595402766398F21985AF.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.04.09-15.01.56:044][517]LogFileHelpers: Saving map 'Minimal_Default' took 0.271
+[2020.04.09-15.02.01:466][ 93]LogSlate: Window 'PortInvadeProject - Unreal Editor' being destroyed
+[2020.04.09-15.02.01:848][ 94]Cmd: QUIT_EDITOR
+[2020.04.09-15.02.02:877][ 94]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.09-15.02.02:898][ 94]LogExit: Preparing to exit.
+[2020.04.09-15.02.03:580][ 94]LogExit: Editor shut down
+[2020.04.09-15.02.03:581][ 94]LogExit: Transaction tracking system shut down
+[2020.04.09-15.02.04:084][ 94]LogExit: Object subsystem successfully closed.
+[2020.04.09-15.02.04:104][ 94]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.09-15.02.04:106][ 94]LogD3D11RHI: Shutdown
+[2020.04.09-15.02.04:106][ 94]LogD3D11RHI: CleanupD3DDevice
+[2020.04.09-15.02.04:108][ 94]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.04.09-15.02.04:116][ 94]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (620)
+[2020.04.09-15.02.04:116][ 94]LogModuleManager: Shutting down and abandoning module Voice (618)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module SequencerWidgets (616)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (610)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2020.04.09-15.02.04:117][ 94]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2020.04.09-15.02.04:118][ 94]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2020.04.09-15.02.04:395][ 94]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2020.04.09-15.02.04:396][ 94]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2020.04.09-15.02.04:462][ 94]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2020.04.09-15.02.04:463][ 94]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2020.04.09-15.02.04:463][ 94]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2020.04.09-15.02.04:471][ 94]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2020.04.09-15.02.04:471][ 94]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2020.04.09-15.02.04:473][ 94]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2020.04.09-15.02.04:473][ 94]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2020.04.09-15.02.04:473][ 94]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2020.04.09-15.02.04:474][ 94]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2020.04.09-15.02.04:475][ 94]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2020.04.09-15.02.04:509][ 94]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2020.04.09-15.02.04:510][ 94]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2020.04.09-15.02.04:510][ 94]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2020.04.09-15.02.04:510][ 94]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2020.04.09-15.02.04:510][ 94]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2020.04.09-15.02.04:510][ 94]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2020.04.09-15.02.04:510][ 94]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.04.09-15.02.04:519][ 94]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.04.09-15.02.04:520][ 94]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.04.09-15.02.04:520][ 94]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.04.09-15.02.04:520][ 94]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2020.04.09-15.02.04:520][ 94]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2020.04.09-15.02.04:521][ 94]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.04.09-15.02.04:521][ 94]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.04.09-15.02.04:521][ 94]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.04.09-15.02.04:521][ 94]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2020.04.09-15.02.04:521][ 94]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2020.04.09-15.02.04:521][ 94]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2020.04.09-15.02.04:521][ 94]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2020.04.09-15.02.04:522][ 94]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.04.09-15.02.04:523][ 94]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.04.09-15.02.04:624][ 94]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.04.09-15.02.04:725][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2020.04.09-15.02.04:725][ 94]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2020.04.09-15.02.04:725][ 94]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2020.04.09-15.02.04:725][ 94]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2020.04.09-15.02.04:725][ 94]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2020.04.09-15.02.04:725][ 94]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2020.04.09-15.02.04:725][ 94]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2020.04.09-15.02.04:727][ 94]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2020.04.09-15.02.04:728][ 94]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2020.04.09-15.02.04:728][ 94]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2020.04.09-15.02.04:728][ 94]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2020.04.09-15.02.04:729][ 94]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2020.04.09-15.02.04:731][ 94]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2020.04.09-15.02.04:732][ 94]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2020.04.09-15.02.04:732][ 94]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2020.04.09-15.02.04:732][ 94]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2020.04.09-15.02.04:732][ 94]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2020.04.09-15.02.04:732][ 94]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2020.04.09-15.02.04:735][ 94]LogModuleManager: Shutting down and abandoning module Media (243)
+[2020.04.09-15.02.04:742][ 94]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2020.04.09-15.02.04:742][ 94]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2020.04.09-15.02.04:742][ 94]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2020.04.09-15.02.04:743][ 94]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2020.04.09-15.02.04:744][ 94]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2020.04.09-15.02.04:744][ 94]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2020.04.09-15.02.04:744][ 94]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2020.04.09-15.02.04:744][ 94]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2020.04.09-15.02.04:744][ 94]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2020.04.09-15.02.04:744][ 94]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.04.09-15.02.04:749][ 94]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module Core (188)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2020.04.09-15.02.04:750][ 94]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2020.04.09-15.02.04:751][ 94]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2020.04.09-15.02.04:751][ 94]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2020.04.09-15.02.04:751][ 94]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2020.04.09-15.02.04:751][ 94]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2020.04.09-15.02.04:751][ 94]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2020.04.09-15.02.04:751][ 94]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2020.04.09-15.02.04:756][ 94]LogDerivedDataCache: Shutdown
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2020.04.09-15.02.04:756][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2020.04.09-15.02.04:757][ 94]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2020.04.09-15.02.04:758][ 94]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2020.04.09-15.02.04:758][ 94]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2020.04.09-15.02.04:758][ 94]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.04.09-15.02.04:758][ 94]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2020.04.09-15.02.04:760][ 94]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.04.09-15.02.04:760][ 94]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.04.09-15.02.04:762][ 94]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2020.04.09-15.02.04:762][ 94]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2020.04.09-15.02.04:778][ 94]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2020.04.09-15.02.04:779][ 94]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2020.04.09-15.02.04:780][ 94]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2020.04.09-15.02.04:781][ 94]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2020.04.09-15.02.04:782][ 94]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2020.04.09-15.02.04:790][ 94]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2020.04.09-15.02.04:790][ 94]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.09-15.02.04:790][ 94]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB986FA0A-484C-9B93-EF19-8C91E8BDF362%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=aef56c56497e6171c65536a4dfac414d%7Cd8f6237aac984f7bbfbb0ff2f479ed9c%7C1b153140-5836-40b6-9f24-ca069c129286&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.04.09-15.02.04:794][ 94]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2020.04.09-15.02.04:797][ 94]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2020.04.09-15.02.04:798][ 94]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.04.09-15.02.04:798][ 94]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.04.09-15.02.04:799][ 94]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.04.09-15.02.04:799][ 94]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.04.09-15.02.04:799][ 94]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.04.09-15.02.04:799][ 94]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.04.09-15.02.04:799][ 94]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.04.09-15.02.04:799][ 94]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.04.09-15.02.04:799][ 94]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.04.09-15.02.04:810][ 94]LogExit: Exiting.
+[2020.04.09-15.02.04:843][ 94]Log file closed, 04/09/20 11:02:04
