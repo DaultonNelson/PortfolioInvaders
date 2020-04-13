@@ -1,4 +1,4 @@
-﻿Log file open, 04/13/20 13:35:35
+﻿Log file open, 04/13/20 14:26:48
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PortInvadeProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.285719
+LogStats: Stats thread started at 0.286829
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.095s to configure plugins.
+LogStreaming: Display: Took  0.138s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,250 +147,317 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.04.13-17.35.36:240][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.13-17.35.36:240][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.13-17.35.36:251][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.13-17.35.36:251][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2020.04.13-17.35.36:251][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.13-17.35.36:251][  0]LogInit: Computer: MSI
-[2020.04.13-17.35.36:251][  0]LogInit: User: DaultonNelson
-[2020.04.13-17.35.36:251][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.04.13-17.35.36:251][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.13-17.35.36:252][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.04.13-17.35.36:252][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.13-17.35.36:252][  0]LogMemory: Process Physical Memory: 102.30 MB used, 102.31 MB peak
-[2020.04.13-17.35.36:252][  0]LogMemory: Process Virtual Memory: 89.38 MB used, 89.38 MB peak
-[2020.04.13-17.35.36:252][  0]LogMemory: Physical Memory: 7624.53 MB used,  8646.88 MB free, 16271.41 MB total
-[2020.04.13-17.35.36:252][  0]LogMemory: Virtual Memory: 4612.59 MB used,  8646.88 MB free, 134217728.00 MB total
-[2020.04.13-17.35.38:181][  0]LogInit: Using OS detected language (en-US).
-[2020.04.13-17.35.38:181][  0]LogInit: Using OS detected locale (en-US).
-[2020.04.13-17.35.38:186][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.04.13-17.35.38:848][  0]LogStreaming: Display: Took  0.667s to InitEngineTextLocalization.
-[2020.04.13-17.35.38:848][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.13-17.35.38:900][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.13-17.35.38:900][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.13-17.35.39:191][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.13-17.35.39:191][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.13-17.35.39:277][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2020.04.13-17.35.39:277][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.04.13-17.35.39:295][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.04.13-17.35.39:295][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.04.13-17.35.39:297][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.13-17.35.39:297][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.13-17.35.39:297][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.13-17.35.39:357][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.13-17.35.39:357][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2020.04.13-17.35.39:357][  0]LogWindows: EnumDisplayDevices:
-[2020.04.13-17.35.39:357][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.04.13-17.35.39:358][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.04.13-17.35.39:359][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.04.13-17.35.39:359][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.04.13-17.35.39:360][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.04.13-17.35.39:360][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.04.13-17.35.39:361][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.04.13-17.35.39:361][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.04.13-17.35.39:361][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2020.04.13-17.35.39:361][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.04.13-17.35.39:361][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.04.13-17.35.39:361][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2020.04.13-17.35.39:429][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.13-17.35.39:452][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.04.13-17.35.39:455][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Intermediate/Shaders/WorkingDirectory/5592/).
-[2020.04.13-17.35.39:456][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DaultonNelson/AppData/Local/Temp/UnrealShaderWorkingDir/650AAE154BA355E001937E97AD7E3789/'.
-[2020.04.13-17.35.40:104][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.04.13-17.35.40:120][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.04.13-17.35.40:138][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.04.13-17.35.40:167][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.04.13-17.35.40:185][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.04.13-17.35.40:204][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.04.13-17.35.40:223][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.04.13-17.35.40:263][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.04.13-17.35.40:283][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.13-17.35.40:434][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.04.13-17.35.40:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.04.13-17.35.40:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.04.13-17.35.40:597][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.04.13-17.35.40:597][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.04.13-17.35.40:619][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.04.13-17.35.40:643][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.04.13-17.35.40:657][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.04.13-17.35.40:671][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.04.13-17.35.40:680][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.04.13-17.35.40:680][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.13-17.35.40:737][  0]LogXGEController: Cleaning working directory: C:/Users/DaultonNelson/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.04.13-17.35.40:738][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.13-17.35.40:738][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.13-17.35.40:738][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.13-17.35.41:559][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.13-17.35.41:625][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.13-17.35.41:637][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DaultonNelson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.13-17.35.41:637][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.13-17.35.41:637][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.13-17.35.41:655][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.13-17.35.41:657][  0]LogSlate: Using FreeType 2.6.0
-[2020.04.13-17.35.41:657][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.13-17.35.41:797][  0]LogAssetRegistry: FAssetRegistry took 0.0374 seconds to start up
-[2020.04.13-17.35.42:178][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.13-17.35.42:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.04.13-17.35.42:389][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.04.13-17.35.42:389][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.13-17.35.42:389][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.13-17.35.42:389][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.04.13-17.35.42:406][  0]LogNetVersion: PortInvadeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2198381219)
-[2020.04.13-17.35.43:184][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.118622 seconds
-[2020.04.13-17.35.43:191][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2020.04.13-17.35.43:191][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2020.04.13-17.35.43:192][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.13-17.35.44:490][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.13-17.35.44:505][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.13-17.35.44:796][  0]SourceControl: Source control is disabled
-[2020.04.13-17.35.44:796][  0]SourceControl: Source control is disabled
-[2020.04.13-17.35.44:798][  0]SourceControl: Source control is disabled
-[2020.04.13-17.35.44:800][  0]SourceControl: Source control is disabled
-[2020.04.13-17.35.45:064][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.13-17.35.45:648][  0]LogOcInput: OculusInput pre-init called
-[2020.04.13-17.35.45:725][  0]LogEngine: Initializing Engine...
-[2020.04.13-17.35.45:726][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.13-17.35.45:728][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.04.13-17.35.45:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.04.13-17.35.45:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.04.13-17.35.45:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.04.13-17.35.46:326][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.13-17.35.46:347][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.13-17.35.46:453][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2020.04.13-17.35.46:740][  0]LogInit: FAudioDevice initialized.
-[2020.04.13-17.35.46:741][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.13-17.35.46:892][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.04.13-17.35.46:897][  0]LogInit: Texture streaming: Enabled
-[2020.04.13-17.35.46:937][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.13-17.35.46:937][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={D3A0870E-467C-776E-CFED-85B521214F8A}
-[2020.04.13-17.35.46:962][  0]LogInit: Transaction tracking system initialized
-[2020.04.13-17.35.47:007][  0]BlueprintLog: New page: Editor Load
-[2020.04.13-17.35.47:201][  0]LocalizationService: Localization service is disabled
-[2020.04.13-17.35.47:739][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.13-17.35.47:739][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.13-17.35.47:739][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.04.13-17.35.47:885][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/' took 0.02s
-[2020.04.13-17.35.47:886][  0]SourceControl: Source control is disabled
-[2020.04.13-17.35.47:886][  0]LightingResults: New page: Lighting Build
-[2020.04.13-17.35.47:888][  0]MapCheck: New page: Map Check
-[2020.04.13-17.35.47:888][  0]LightingResults: New page: Lighting Build
-[2020.04.13-17.35.48:574][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.04.13-17.35.48:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.13-17.35.48:656][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.13-17.35.48:730][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.44ms to complete.
-[2020.04.13-17.35.48:730][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.844
-[2020.04.13-17.35.48:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-17.35.48:934][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-17.35.48:950][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-17.35.48:968][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-17.35.48:981][  0]LogCollectionManager: Loaded 0 collections in 0.003420 seconds
-[2020.04.13-17.35.49:045][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Collections/' took 0.01s
-[2020.04.13-17.35.49:045][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Developers/DaultonNelson/Collections/' took 0.01s
-[2020.04.13-17.35.49:045][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Collections/' took 0.01s
-[2020.04.13-17.35.49:045][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.04.13-17.35.49:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0314 seconds. Added 2572 classes and 603 folders.
-[2020.04.13-17.35.49:091][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.04.13-17.35.49:264][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.04.13-17.35.49:272][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2020.04.13-17.35.50:518][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2020.04.13-17.35.50:587][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.13-17.35.50:591][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.13-17.35.50:600][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.13-17.35.50:700][  0]LogRenderer: Reallocating scene render targets to support 860x436 Format 10 NumSamples 1 (Frame:1).
-[2020.04.13-17.35.50:838][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PortInvadeProject
-[2020.04.13-17.35.50:838][  0]LogTemp: CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
-[2020.04.13-17.35.50:838][  0]LogTemp: Initial Dir: D:\Program Files\Unreal\Engine\UE_4.20
-[2020.04.13-17.35.50:838][  0]LogTemp: Env CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
-[2020.04.13-17.35.50:838][  0]LogTemp: BranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries
-[2020.04.13-17.35.50:838][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DaultonNelson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2020.04.13-17.35.50:854][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.13-17.35.50:854][  0]LogLoad: (Engine Initialization) Total time: 16.88 seconds
-[2020.04.13-17.35.50:854][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.13-17.35.50:899][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.13-17.35.50:929][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.13-17.35.51:146][  2]LogAssetRegistry: Asset discovery search completed in 9.3721 seconds
-[2020.04.13-17.35.51:149][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.04.13-17.35.51:149][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000142 seconds (updated 0 objects)
-[2020.04.13-17.35.51:986][ 28]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.13-17.35.56:142][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.04.13-17.35.56:325][155]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PlayerShipPawn.PlayerShipPawn
-[2020.04.13-17.35.57:557][155]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 116 classes and 0 folders.
-[2020.04.13-17.35.59:710][155]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/3DAssets/InvaderBug/ABP_Bug.ABP_Bug
-[2020.04.13-17.35.59:762][155]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2020.04.13-17.36.00:066][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.04.13-17.36.00:071][155]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2020.04.13-17.36.00:520][155]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.04.13-17.36.00:809][155]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.04.13-17.36.00:863][155]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2020.04.13-17.36.00:932][155]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.04.13-17.36.06:199][316]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/ABP_Bug6F7525A24FC11738B3B49081A74D721E.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/ABP_Bug.uasset'
-[2020.04.13-17.36.12:879][471]BlueprintLog: New page: Compile ABP_Bug
-[2020.04.13-17.36.15:080][532]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/ABP_Bug6EFBB52B4E5A9DADFCDF54B15A7340F7.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/ABP_Bug.uasset'
-[2020.04.13-17.36.20:843][782]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2020.04.13-17.36.20:867][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.04.13-17.36.20:867][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.13-17.36.20:880][782]PIE: New page: PIE session: Minimal_Default (Apr 13, 2020, 9:36:20 AM)
-[2020.04.13-17.36.20:880][782]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2020.04.13-17.36.20:884][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003568s)
-[2020.04.13-17.36.20:885][782]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.04.13-17.36.20:885][782]LogPlayLevel: PIE: World Init took: (0.000845s)
-[2020.04.13-17.36.20:885][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004622s)
-[2020.04.13-17.36.20:978][782]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2020.04.13-17.36.21:073][782]LogInit: FAudioDevice initialized.
-[2020.04.13-17.36.21:088][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-17.36.21:181][782]LogLoad: Game class is 'Shoot-em-UpMode_C'
-[2020.04.13-17.36.21:184][782]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.13-13.36.21
-[2020.04.13-17.36.21:185][782]LogWorld: Bringing up level for play took: 0.001629
-[2020.04.13-17.36.21:199][782]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2020.04.13-17.36.21:213][782]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
-[2020.04.13-17.36.21:214][782]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.04.13-17.36.21:214][782]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.04.13-17.36.21:214][782]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.04.13-17.36.21:287][782]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.04.13-17.36.21:289][782]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.233
-[2020.04.13-17.36.21:290][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.04.13-17.36.21:319][782]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
-[2020.04.13-17.36.22:804][827]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.04.13-17.36.22:817][827]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.04.13-17.36.22:853][827]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.13-17.36.22:853][827]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.04.13-17.36.22:896][828]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2020.04.13-17.36.45:411][478]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyFiles/EnemyPrefab.EnemyPrefab
-[2020.04.13-17.36.46:340][479]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.04.13-17.37.00:071][106]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyPrefabCB34FA854BB6C832018E6497CEB60C6C.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyFiles/EnemyPrefab.uasset'
-[2020.04.13-17.37.58:308][893]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction.Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction
-[2020.04.13-17.37.58:488][893]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.04.13-17.37.58:591][893]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.04.13-17.37.59:561][893]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-18.26.49:323][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-18.26.49:323][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.13-18.26.49:365][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.13-18.26.49:365][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.04.13-18.26.49:366][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.13-18.26.49:367][  0]LogInit: Computer: MSI
+[2020.04.13-18.26.49:367][  0]LogInit: User: DaultonNelson
+[2020.04.13-18.26.49:367][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.13-18.26.49:367][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.13-18.26.49:367][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.13-18.26.49:367][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.13-18.26.49:367][  0]LogMemory: Process Physical Memory: 102.27 MB used, 102.28 MB peak
+[2020.04.13-18.26.49:367][  0]LogMemory: Process Virtual Memory: 89.39 MB used, 89.39 MB peak
+[2020.04.13-18.26.49:367][  0]LogMemory: Physical Memory: 8210.78 MB used,  8060.63 MB free, 16271.41 MB total
+[2020.04.13-18.26.49:367][  0]LogMemory: Virtual Memory: 4612.59 MB used,  8060.63 MB free, 134217728.00 MB total
+[2020.04.13-18.26.51:221][  0]LogInit: Using OS detected language (en-US).
+[2020.04.13-18.26.51:221][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.13-18.26.51:225][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.13-18.26.52:266][  0]LogStreaming: Display: Took  1.045s to InitEngineTextLocalization.
+[2020.04.13-18.26.52:267][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.13-18.26.52:326][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.13-18.26.52:326][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.13-18.26.52:883][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-18.26.52:883][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.13-18.26.53:142][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.04.13-18.26.53:142][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.13-18.26.53:201][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.04.13-18.26.53:201][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.13-18.26.53:210][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.13-18.26.53:210][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.13-18.26.53:211][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.13-18.26.53:369][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.13-18.26.53:369][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.13-18.26.53:369][  0]LogWindows: EnumDisplayDevices:
+[2020.04.13-18.26.53:370][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.04.13-18.26.53:372][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.13-18.26.53:374][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.13-18.26.53:376][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-18.26.53:377][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-18.26.53:378][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-18.26.53:380][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-18.26.53:381][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.13-18.26.53:381][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.04.13-18.26.53:382][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.13-18.26.53:382][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.13-18.26.53:382][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.13-18.26.53:569][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.13-18.26.53:601][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.13-18.26.53:606][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Intermediate/Shaders/WorkingDirectory/3768/).
+[2020.04.13-18.26.53:607][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DaultonNelson/AppData/Local/Temp/UnrealShaderWorkingDir/D0D6D379489B52BC01E19E83232C376B/'.
+[2020.04.13-18.26.54:187][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.13-18.26.54:203][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.13-18.26.54:219][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.13-18.26.54:234][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.13-18.26.54:250][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.13-18.26.54:265][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.13-18.26.54:280][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.13-18.26.54:297][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.13-18.26.54:305][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-18.26.54:462][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.13-18.26.54:557][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.13-18.26.54:557][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.13-18.26.54:585][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.13-18.26.54:585][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.13-18.26.54:602][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.13-18.26.54:615][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.13-18.26.54:628][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.13-18.26.54:642][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.13-18.26.54:652][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.04.13-18.26.54:652][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.13-18.26.54:710][  0]LogXGEController: Cleaning working directory: C:/Users/DaultonNelson/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.13-18.26.54:710][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.13-18.26.54:710][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.13-18.26.54:710][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.13-18.26.56:440][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.13-18.26.56:519][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.13-18.26.56:520][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.04.13-18.26.56:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.13-18.26.56:520][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.13-18.26.56:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.13-18.26.56:520][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.13-18.26.56:546][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.13-18.26.56:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DaultonNelson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.13-18.26.56:559][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.13-18.26.56:559][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.13-18.26.56:589][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.13-18.26.56:591][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.13-18.26.56:592][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.13-18.26.56:698][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2020.04.13-18.26.57:408][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-18.26.57:785][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.13-18.26.57:796][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.13-18.26.57:796][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.13-18.26.57:797][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.13-18.26.57:797][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.13-18.26.57:847][  0]LogNetVersion: PortInvadeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2198381219)
+[2020.04.13-18.26.58:742][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.131710 seconds
+[2020.04.13-18.26.58:758][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.04.13-18.26.58:758][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2020.04.13-18.26.58:758][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.13-18.27.00:845][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.13-18.27.00:862][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.13-18.27.01:145][  0]SourceControl: Source control is disabled
+[2020.04.13-18.27.01:145][  0]SourceControl: Source control is disabled
+[2020.04.13-18.27.01:148][  0]SourceControl: Source control is disabled
+[2020.04.13-18.27.01:150][  0]SourceControl: Source control is disabled
+[2020.04.13-18.27.01:397][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.13-18.27.02:004][  0]LogOcInput: OculusInput pre-init called
+[2020.04.13-18.27.02:164][  0]LogEngine: Initializing Engine...
+[2020.04.13-18.27.02:167][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-18.27.02:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.13-18.27.02:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.13-18.27.02:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.13-18.27.02:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.13-18.27.02:814][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.13-18.27.02:851][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.13-18.27.03:104][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.13-18.27.03:426][  0]LogInit: FAudioDevice initialized.
+[2020.04.13-18.27.03:427][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.13-18.27.03:584][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.13-18.27.03:597][  0]LogInit: Texture streaming: Enabled
+[2020.04.13-18.27.03:656][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.13-18.27.03:656][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={02E0920D-4362-565E-22C9-E4A8CA61492A}
+[2020.04.13-18.27.03:695][  0]LogInit: Transaction tracking system initialized
+[2020.04.13-18.27.03:759][  0]BlueprintLog: New page: Editor Load
+[2020.04.13-18.27.03:977][  0]LocalizationService: Localization service is disabled
+[2020.04.13-18.27.04:545][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.13-18.27.04:545][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.13-18.27.04:545][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.13-18.27.04:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.13-18.27.04:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.13-18.27.04:546][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.13-18.27.04:546][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.13-18.27.04:699][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/' took 0.02s
+[2020.04.13-18.27.04:777][  0]SourceControl: Source control is disabled
+[2020.04.13-18.27.04:778][  0]LightingResults: New page: Lighting Build
+[2020.04.13-18.27.04:784][  0]MapCheck: New page: Map Check
+[2020.04.13-18.27.04:784][  0]LightingResults: New page: Lighting Build
+[2020.04.13-18.27.05:796][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.13-18.27.05:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.13-18.27.05:877][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.13-18.27.06:058][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 181.559ms to complete.
+[2020.04.13-18.27.06:059][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.281
+[2020.04.13-18.27.06:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.27.06:215][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.27.06:224][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.27.06:235][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.27.06:243][  0]LogCollectionManager: Loaded 0 collections in 0.001869 seconds
+[2020.04.13-18.27.06:295][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Collections/' took 0.01s
+[2020.04.13-18.27.06:296][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Developers/DaultonNelson/Collections/' took 0.01s
+[2020.04.13-18.27.06:296][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Collections/' took 0.01s
+[2020.04.13-18.27.06:296][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.04.13-18.27.06:324][  0]LogContentBrowser: Native class hierarchy populated in 0.0279 seconds. Added 2572 classes and 603 folders.
+[2020.04.13-18.27.06:346][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.04.13-18.27.06:494][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.04.13-18.27.06:505][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2020.04.13-18.27.08:424][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.04.13-18.27.08:499][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.13-18.27.08:503][  0]LogSlate: Took 0.000689 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.13-18.27.08:513][  0]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.13-18.27.08:593][  0]LogRenderer: Reallocating scene render targets to support 860x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-18.27.08:718][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PortInvadeProject
+[2020.04.13-18.27.08:718][  0]LogTemp: CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.13-18.27.08:718][  0]LogTemp: Initial Dir: D:\Program Files\Unreal\Engine\UE_4.20
+[2020.04.13-18.27.08:718][  0]LogTemp: Env CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.13-18.27.08:718][  0]LogTemp: BranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries
+[2020.04.13-18.27.08:718][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DaultonNelson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.04.13-18.27.08:734][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.13-18.27.08:734][  0]LogLoad: (Engine Initialization) Total time: 22.23 seconds
+[2020.04.13-18.27.08:734][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.13-18.27.08:786][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.13-18.27.08:826][  0]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-18.27.09:024][  2]LogAssetRegistry: Asset discovery search completed in 12.3483 seconds
+[2020.04.13-18.27.09:028][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.04.13-18.27.09:028][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000146 seconds (updated 0 objects)
+[2020.04.13-18.27.10:268][  6]LogSlate: Took 0.000844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-18.27.25:564][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.13-18.27.25:754][145]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyFiles/EnemyPrefab.EnemyPrefab
+[2020.04.13-18.27.27:348][145]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 116 classes and 0 folders.
+[2020.04.13-18.27.29:756][145]LogAssetEditorManager: Opening Asset editor for Material /Game/3DAssets/InvaderSquid/Invader_Squid1.Invader_Squid1
+[2020.04.13-18.27.29:771][145]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.27.30:179][145]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.27.30:214][145]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.27.30:262][145]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.27.30:262][145]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.27.30:262][145]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.27.30:262][145]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.27.30:278][145]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.13-18.27.30:289][145]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-18.27.30:404][145]LogAssetEditorManager: Opening Asset editor for DataTable /Game/Blueprints/EnemyFiles/EnemyDataTable.EnemyDataTable
+[2020.04.13-18.27.30:512][145]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.13-18.27.30:602][146]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.13-18.27.31:014][161]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.27.31:027][161]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.27.31:027][161]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.27.31:048][162]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.27.31:214][167]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.27.31:229][167]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.27.31:239][167]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.27.31:239][167]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.27.31:406][172]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.27.31:536][176]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.27.31:658][184]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.27.31:691][186]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.27.31:815][193]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.27.31:916][197]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.27.31:969][198]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.27.32:122][203]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.27.32:173][204]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.27.32:282][208]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.27.32:356][210]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.27.32:447][214]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.27.32:532][218]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-18.27.32:536][218]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-18.27.32:594][220]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-18.27.32:669][222]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-18.27.32:768][225]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-18.27.32:768][225]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-18.27.32:816][226]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-18.27.32:883][227]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-18.27.33:090][237]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-18.27.33:166][240]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.27.33:194][241]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-18.27.33:287][245]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-18.27.33:447][247]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-18.27.33:500][248]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-18.27.33:603][250]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-18.27.33:709][251]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-18.27.33:717][251]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-18.27.33:865][254]LogShaderCompilers: Display: Shaders left to compile 22
+[2020.04.13-18.27.33:961][255]LogShaderCompilers: Display: Shaders left to compile 21
+[2020.04.13-18.27.33:984][255]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-18.27.33:997][256]LogShaderCompilers: Display: Shaders left to compile 19
+[2020.04.13-18.27.34:083][257]LogShaderCompilers: Display: Shaders left to compile 18
+[2020.04.13-18.27.34:187][259]LogShaderCompilers: Display: Shaders left to compile 17
+[2020.04.13-18.27.34:193][259]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.04.13-18.27.34:194][259]LogShaderCompilers: Display: Shaders left to compile 15
+[2020.04.13-18.27.34:277][260]LogShaderCompilers: Display: Shaders left to compile 14
+[2020.04.13-18.27.34:381][260]LogShaderCompilers: Display: Shaders left to compile 13
+[2020.04.13-18.27.34:534][262]LogShaderCompilers: Display: Shaders left to compile 12
+[2020.04.13-18.27.34:623][268]LogShaderCompilers: Display: Shaders left to compile 11
+[2020.04.13-18.27.34:623][268]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-18.27.34:776][275]LogShaderCompilers: Display: Shaders left to compile 9
+[2020.04.13-18.27.34:891][279]LogShaderCompilers: Display: Shaders left to compile 8
+[2020.04.13-18.27.34:978][281]LogShaderCompilers: Display: Shaders left to compile 7
+[2020.04.13-18.27.35:077][286]LogShaderCompilers: Display: Shaders left to compile 6
+[2020.04.13-18.27.35:158][291]LogShaderCompilers: Display: Shaders left to compile 5
+[2020.04.13-18.27.35:222][295]LogShaderCompilers: Display: Shaders left to compile 4
+[2020.04.13-18.27.35:323][301]LogShaderCompilers: Display: Shaders left to compile 3
+[2020.04.13-18.27.35:391][305]LogShaderCompilers: Display: Shaders left to compile 2
+[2020.04.13-18.27.35:455][308]LogShaderCompilers: Display: Shaders left to compile 1
+[2020.04.13-18.27.35:456][308]MaterialEditorStats: Base pass shader: 101 instructions
+[2020.04.13-18.27.35:456][308]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 168 instructions
+[2020.04.13-18.27.35:456][308]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2020.04.13-18.27.35:456][308]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2020.04.13-18.27.35:456][308]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.13-18.27.35:456][308]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-18.27.35:456][308]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.13-18.27.37:131][366]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyDataTable46842E90403E1D925B357FBF977BE22E.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyFiles/EnemyDataTable.uasset'
+[2020.04.13-18.27.41:466][493]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyDataTable416550BC4F3625CF0DD383AE6A0985A0.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyFiles/EnemyDataTable.uasset'
+[2020.04.13-18.27.43:023][563]LogSlate: Window 'EnemyDataTable' being destroyed
+[2020.04.13-18.27.43:027][563]LogSlate: Window 'EnemyDataTable' being destroyed
+[2020.04.13-18.27.47:707][815]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.13-18.27.47:729][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.27.47:729][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-18.27.47:742][815]PIE: New page: PIE session: Minimal_Default (Apr 13, 2020, 10:27:47 AM)
+[2020.04.13-18.27.47:743][815]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.13-18.27.47:747][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003799s)
+[2020.04.13-18.27.47:747][815]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.13-18.27.47:748][815]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2020.04.13-18.27.47:748][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004756s)
+[2020.04.13-18.27.47:851][815]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.13-18.27.48:178][815]LogInit: FAudioDevice initialized.
+[2020.04.13-18.27.48:234][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.27.48:334][815]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.13-18.27.48:336][815]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.13-14.27.48
+[2020.04.13-18.27.48:337][815]LogWorld: Bringing up level for play took: 0.000797
+[2020.04.13-18.27.48:348][815]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.13-18.27.48:355][815]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2020.04.13-18.27.48:355][815]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-18.27.48:355][815]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-18.27.48:355][815]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-18.27.48:383][815]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-18.27.48:385][815]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.33
+[2020.04.13-18.27.48:386][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.27.48:418][815]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-18.27.50:116][867]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.27.50:118][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.27.50:191][867]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-18.27.50:245][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-18.27.50:246][867]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.27.50:334][868]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.04.13-18.27.51:302][901]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyPrefabECE4E0D44D0FC26BFF0F4BA42114D13C.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyFiles/EnemyPrefab.uasset'

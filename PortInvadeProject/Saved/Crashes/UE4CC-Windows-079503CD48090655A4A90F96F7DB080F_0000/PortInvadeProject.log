@@ -1,0 +1,1028 @@
+﻿Log file open, 04/13/20 13:35:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PortInvadeProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.285719
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.095s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.04.13-17.35.36:240][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-17.35.36:240][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.13-17.35.36:251][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.13-17.35.36:251][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.04.13-17.35.36:251][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.13-17.35.36:251][  0]LogInit: Computer: MSI
+[2020.04.13-17.35.36:251][  0]LogInit: User: DaultonNelson
+[2020.04.13-17.35.36:251][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.13-17.35.36:251][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.13-17.35.36:252][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.13-17.35.36:252][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.13-17.35.36:252][  0]LogMemory: Process Physical Memory: 102.30 MB used, 102.31 MB peak
+[2020.04.13-17.35.36:252][  0]LogMemory: Process Virtual Memory: 89.38 MB used, 89.38 MB peak
+[2020.04.13-17.35.36:252][  0]LogMemory: Physical Memory: 7624.53 MB used,  8646.88 MB free, 16271.41 MB total
+[2020.04.13-17.35.36:252][  0]LogMemory: Virtual Memory: 4612.59 MB used,  8646.88 MB free, 134217728.00 MB total
+[2020.04.13-17.35.38:181][  0]LogInit: Using OS detected language (en-US).
+[2020.04.13-17.35.38:181][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.13-17.35.38:186][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.13-17.35.38:848][  0]LogStreaming: Display: Took  0.667s to InitEngineTextLocalization.
+[2020.04.13-17.35.38:848][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.13-17.35.38:900][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.13-17.35.38:900][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.13-17.35.39:191][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-17.35.39:191][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.13-17.35.39:277][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.04.13-17.35.39:277][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.13-17.35.39:295][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.04.13-17.35.39:295][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.13-17.35.39:297][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.13-17.35.39:297][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.13-17.35.39:297][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.13-17.35.39:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.13-17.35.39:357][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.13-17.35.39:357][  0]LogWindows: EnumDisplayDevices:
+[2020.04.13-17.35.39:357][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.04.13-17.35.39:358][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.13-17.35.39:359][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.13-17.35.39:359][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.35.39:360][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.35.39:360][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.35.39:361][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.35.39:361][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.13-17.35.39:361][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.04.13-17.35.39:361][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.13-17.35.39:361][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.13-17.35.39:361][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.13-17.35.39:429][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.13-17.35.39:452][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.13-17.35.39:455][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Intermediate/Shaders/WorkingDirectory/5592/).
+[2020.04.13-17.35.39:456][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DaultonNelson/AppData/Local/Temp/UnrealShaderWorkingDir/650AAE154BA355E001937E97AD7E3789/'.
+[2020.04.13-17.35.40:104][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.13-17.35.40:120][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.13-17.35.40:138][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.13-17.35.40:167][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.13-17.35.40:185][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.13-17.35.40:204][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.13-17.35.40:223][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.13-17.35.40:263][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.13-17.35.40:283][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.35.40:434][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.13-17.35.40:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.13-17.35.40:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.13-17.35.40:597][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.13-17.35.40:597][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.13-17.35.40:619][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.13-17.35.40:643][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.13-17.35.40:657][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.13-17.35.40:671][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.13-17.35.40:680][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.04.13-17.35.40:680][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.13-17.35.40:737][  0]LogXGEController: Cleaning working directory: C:/Users/DaultonNelson/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.13-17.35.40:738][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.13-17.35.40:738][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.13-17.35.40:738][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.13-17.35.41:559][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.13-17.35.41:610][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.13-17.35.41:625][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.13-17.35.41:637][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DaultonNelson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.13-17.35.41:637][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.13-17.35.41:637][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.13-17.35.41:655][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.13-17.35.41:657][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.13-17.35.41:657][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.13-17.35.41:797][  0]LogAssetRegistry: FAssetRegistry took 0.0374 seconds to start up
+[2020.04.13-17.35.42:178][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-17.35.42:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.13-17.35.42:389][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.13-17.35.42:389][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.13-17.35.42:389][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.13-17.35.42:389][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.13-17.35.42:406][  0]LogNetVersion: PortInvadeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2198381219)
+[2020.04.13-17.35.43:184][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.118622 seconds
+[2020.04.13-17.35.43:191][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.04.13-17.35.43:191][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.04.13-17.35.43:192][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.13-17.35.44:490][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.13-17.35.44:505][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.13-17.35.44:796][  0]SourceControl: Source control is disabled
+[2020.04.13-17.35.44:796][  0]SourceControl: Source control is disabled
+[2020.04.13-17.35.44:798][  0]SourceControl: Source control is disabled
+[2020.04.13-17.35.44:800][  0]SourceControl: Source control is disabled
+[2020.04.13-17.35.45:064][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.13-17.35.45:648][  0]LogOcInput: OculusInput pre-init called
+[2020.04.13-17.35.45:725][  0]LogEngine: Initializing Engine...
+[2020.04.13-17.35.45:726][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-17.35.45:728][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.13-17.35.45:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.13-17.35.45:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.13-17.35.45:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.13-17.35.46:326][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.13-17.35.46:347][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.13-17.35.46:453][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.13-17.35.46:740][  0]LogInit: FAudioDevice initialized.
+[2020.04.13-17.35.46:741][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.13-17.35.46:892][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.13-17.35.46:897][  0]LogInit: Texture streaming: Enabled
+[2020.04.13-17.35.46:937][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.13-17.35.46:937][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={D3A0870E-467C-776E-CFED-85B521214F8A}
+[2020.04.13-17.35.46:962][  0]LogInit: Transaction tracking system initialized
+[2020.04.13-17.35.47:007][  0]BlueprintLog: New page: Editor Load
+[2020.04.13-17.35.47:201][  0]LocalizationService: Localization service is disabled
+[2020.04.13-17.35.47:739][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.13-17.35.47:739][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.13-17.35.47:739][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.13-17.35.47:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.13-17.35.47:885][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/' took 0.02s
+[2020.04.13-17.35.47:886][  0]SourceControl: Source control is disabled
+[2020.04.13-17.35.47:886][  0]LightingResults: New page: Lighting Build
+[2020.04.13-17.35.47:888][  0]MapCheck: New page: Map Check
+[2020.04.13-17.35.47:888][  0]LightingResults: New page: Lighting Build
+[2020.04.13-17.35.48:574][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.13-17.35.48:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.13-17.35.48:656][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.13-17.35.48:730][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.44ms to complete.
+[2020.04.13-17.35.48:730][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.844
+[2020.04.13-17.35.48:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.35.48:934][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.35.48:950][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.35.48:968][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.35.48:981][  0]LogCollectionManager: Loaded 0 collections in 0.003420 seconds
+[2020.04.13-17.35.49:045][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Collections/' took 0.01s
+[2020.04.13-17.35.49:045][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Developers/DaultonNelson/Collections/' took 0.01s
+[2020.04.13-17.35.49:045][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Collections/' took 0.01s
+[2020.04.13-17.35.49:045][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.04.13-17.35.49:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0314 seconds. Added 2572 classes and 603 folders.
+[2020.04.13-17.35.49:091][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.13-17.35.49:264][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.13-17.35.49:272][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.04.13-17.35.50:518][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.04.13-17.35.50:587][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.13-17.35.50:591][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.13-17.35.50:600][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.13-17.35.50:700][  0]LogRenderer: Reallocating scene render targets to support 860x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-17.35.50:838][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PortInvadeProject
+[2020.04.13-17.35.50:838][  0]LogTemp: CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.13-17.35.50:838][  0]LogTemp: Initial Dir: D:\Program Files\Unreal\Engine\UE_4.20
+[2020.04.13-17.35.50:838][  0]LogTemp: Env CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.13-17.35.50:838][  0]LogTemp: BranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries
+[2020.04.13-17.35.50:838][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DaultonNelson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.04.13-17.35.50:854][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.13-17.35.50:854][  0]LogLoad: (Engine Initialization) Total time: 16.88 seconds
+[2020.04.13-17.35.50:854][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.13-17.35.50:899][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.13-17.35.50:929][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-17.35.51:146][  2]LogAssetRegistry: Asset discovery search completed in 9.3721 seconds
+[2020.04.13-17.35.51:149][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.13-17.35.51:149][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000142 seconds (updated 0 objects)
+[2020.04.13-17.35.51:986][ 28]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-17.35.56:142][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.13-17.35.56:325][155]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PlayerShipPawn.PlayerShipPawn
+[2020.04.13-17.35.57:557][155]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 116 classes and 0 folders.
+[2020.04.13-17.35.59:710][155]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/3DAssets/InvaderBug/ABP_Bug.ABP_Bug
+[2020.04.13-17.35.59:762][155]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.04.13-17.36.00:066][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-17.36.00:071][155]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.04.13-17.36.00:520][155]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-17.36.00:809][155]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.13-17.36.00:863][155]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.04.13-17.36.00:932][155]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-17.36.06:199][316]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/ABP_Bug6F7525A24FC11738B3B49081A74D721E.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/ABP_Bug.uasset'
+[2020.04.13-17.36.12:879][471]BlueprintLog: New page: Compile ABP_Bug
+[2020.04.13-17.36.15:080][532]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/ABP_Bug6EFBB52B4E5A9DADFCDF54B15A7340F7.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/ABP_Bug.uasset'
+[2020.04.13-17.36.20:843][782]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.13-17.36.20:867][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.36.20:867][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-17.36.20:880][782]PIE: New page: PIE session: Minimal_Default (Apr 13, 2020, 9:36:20 AM)
+[2020.04.13-17.36.20:880][782]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.13-17.36.20:884][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003568s)
+[2020.04.13-17.36.20:885][782]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.13-17.36.20:885][782]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2020.04.13-17.36.20:885][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004622s)
+[2020.04.13-17.36.20:978][782]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.13-17.36.21:073][782]LogInit: FAudioDevice initialized.
+[2020.04.13-17.36.21:088][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.36.21:181][782]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.13-17.36.21:184][782]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.13-13.36.21
+[2020.04.13-17.36.21:185][782]LogWorld: Bringing up level for play took: 0.001629
+[2020.04.13-17.36.21:199][782]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.13-17.36.21:213][782]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2020.04.13-17.36.21:214][782]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-17.36.21:214][782]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-17.36.21:214][782]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-17.36.21:287][782]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-17.36.21:289][782]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.233
+[2020.04.13-17.36.21:290][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.36.21:319][782]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-17.36.22:804][827]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-17.36.22:817][827]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.36.22:853][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-17.36.22:853][827]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.36.22:896][828]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.04.13-17.36.45:411][478]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyFiles/EnemyPrefab.EnemyPrefab
+[2020.04.13-17.36.46:340][479]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.13-17.37.00:071][106]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyPrefabCB34FA854BB6C832018E6497CEB60C6C.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyFiles/EnemyPrefab.uasset'
+[2020.04.13-17.37.58:308][893]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/3DAssets/InvaderBrain/Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction.Invader_Brain_Anim_Invader_Brain_Arm_L_Invader_Brain_Arm_LAction
+[2020.04.13-17.37.58:488][893]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-17.37.58:591][893]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-17.37.59:561][893]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-18.23.52:193][660]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.13-18.23.52:924][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.13-18.23.54:551][660]LogSkeletalMesh: Building Skeletal Mesh Invader_Squid...
+[2020.04.13-18.23.54:557][660]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/3DAssets/InvaderSquid/Invader_Squid.Invader_Squid
+[2020.04.13-18.23.54:562][660]LogSkeletalMesh: Building Skeletal Mesh Invader_Squid...
+[2020.04.13-18.23.54:567][660]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/3DAssets/InvaderSquid/Invader_Squid.Invader_Squid
+[2020.04.13-18.23.54:580][660]LogSkeletalMesh: Building Skeletal Mesh Invader_Squid...
+[2020.04.13-18.23.54:585][660]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/3DAssets/InvaderSquid/Invader_Squid.Invader_Squid
+[2020.04.13-18.24.00:042][839]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.089
+[2020.04.13-18.24.00:046][839]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/EnemyFiles/EnemyDataTable] ([1] browsable assets)...
+[2020.04.13-18.24.00:046][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/EnemyFiles/EnemyDataTable]
+[2020.04.13-18.24.00:077][839]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyDataTable_Auto104B6C3E3418B52905B9FF8B05979D698.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Autosaves/Game/Blueprints/EnemyFiles/EnemyDataTable_Auto1.uasset'
+[2020.04.13-18.24.00:080][839]LogFileHelpers: Auto-saving content packages took 0.036
+[2020.04.13-18.24.07:054][948]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/Blender Files/FBX Files/Invader_Squid.fbx)
+[2020.04.13-18.24.07:092][948]LogFbx: Loading FBX Scene from ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/Blender Files/FBX Files/Invader_Squid.fbx
+[2020.04.13-18.24.07:121][948]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.13-18.24.09:776][948]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.13-18.24.09:809][948]LogFbx: =================================================
+[2020.04.13-18.24.09:809][948]LogFbx: Dumping Node START [Invader_Squid] 
+[2020.04.13-18.24.09:809][948]LogFbx: 	Total Deformer Count 1054333648.
+[2020.04.13-18.24.09:809][948]LogFbx: 		[Node 1] Armature_Invader_Squid (Type Skin).
+[2020.04.13-18.24.09:809][948]LogFbx: =================================================
+[2020.04.13-18.24.09:809][948]LogFbx: 	Attribute (Cylinder) Type (4).
+[2020.04.13-18.24.09:809][948]LogFbx: 		[Node Attribute Child 1] Invader_Squid (Type Mesh).
+[2020.04.13-18.24.09:809][948]LogFbx: Dumping Node END [Invader_Squid]
+[2020.04.13-18.24.09:809][948]LogFbx: =================================================
+[2020.04.13-18.24.09:809][948]LogFbx: Dumping Node START [Invader_Squid] 
+[2020.04.13-18.24.09:809][948]LogFbx: 	Total Deformer Count 1054333648.
+[2020.04.13-18.24.09:809][948]LogFbx: 		[Node 1] Armature_Invader_Squid (Type Skin).
+[2020.04.13-18.24.09:809][948]LogFbx: =================================================
+[2020.04.13-18.24.09:809][948]LogFbx: 	Attribute (Cylinder) Type (4).
+[2020.04.13-18.24.09:809][948]LogFbx: 		[Node Attribute Child 1] Invader_Squid (Type Mesh).
+[2020.04.13-18.24.09:809][948]LogFbx: Dumping Node END [Invader_Squid]
+[2020.04.13-18.24.09:810][948]LogFbx: Valid bind pose for Pose (Cylinder) - Invader_Squid
+[2020.04.13-18.24.09:956][948]LogMaterial: Warning: Material /Game/3DAssets/InvaderSquid/Invader_Squid1.Invader_Squid1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.13-18.24.09:959][948]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.24.10:039][948]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.24.10:108][948]LogFbx: Triangulating skeletal mesh Invader_Squid
+[2020.04.13-18.24.10:299][948]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.13-18.24.10:299][948]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.24.10:299][948]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.24.10:299][948]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.24.10:299][948]LogFbx: Warning: Bones digested - 23  Depth of hierarchy - 6
+[2020.04.13-18.24.10:383][948]LogSkeletalMesh: Section 0: 1156 vertices, 17 active bones
+[2020.04.13-18.24.10:383][948]LogSkeletalMesh: Section 0: Material=0, 1822 triangles
+[2020.04.13-18.24.10:384][948]LogSkeletalMesh: Building Skeletal Mesh Invader_Squid...
+[2020.04.13-18.24.10:385][948]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/3DAssets/InvaderSquid/Invader_Squid.Invader_Squid
+[2020.04.13-18.24.10:386][948]LogLinker: Can't find file '/Game/3DAssets/InvaderSquid/Invader_Squid_Skeleton'
+[2020.04.13-18.24.10:387][948]LogLinker: Can't find file '/Game/3DAssets/InvaderSquid/Invader_Squid_Skeleton'
+[2020.04.13-18.24.10:388][948]LogLinker: Can't find file '/Game/3DAssets/InvaderSquid/Invader_Squid_PhysicsAsset'
+[2020.04.13-18.24.10:388][948]LogLinker: Can't find file '/Game/3DAssets/InvaderSquid/Invader_Squid_PhysicsAsset'
+[2020.04.13-18.24.10:393][948]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_16:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.04.13-18.24.10:403][948]LogFbx: =================================================
+[2020.04.13-18.24.10:403][948]LogFbx: Dumping Node START [Invader_Squid] 
+[2020.04.13-18.24.10:403][948]LogFbx: 	Total Deformer Count 239116160.
+[2020.04.13-18.24.10:403][948]LogFbx: 		[Node 1] Armature_Invader_Squid (Type Skin).
+[2020.04.13-18.24.10:403][948]LogFbx: =================================================
+[2020.04.13-18.24.10:403][948]LogFbx: 	Attribute (Cylinder) Type (4).
+[2020.04.13-18.24.10:403][948]LogFbx: 		[Node Attribute Child 1] Invader_Squid (Type Mesh).
+[2020.04.13-18.24.10:403][948]LogFbx: Dumping Node END [Invader_Squid]
+[2020.04.13-18.24.10:404][948]LogFbx: =================================================
+[2020.04.13-18.24.10:404][948]LogFbx: Dumping Node START [Invader_Squid] 
+[2020.04.13-18.24.10:404][948]LogFbx: 	Total Deformer Count 239116160.
+[2020.04.13-18.24.10:404][948]LogFbx: 		[Node 1] Armature_Invader_Squid (Type Skin).
+[2020.04.13-18.24.10:404][948]LogFbx: =================================================
+[2020.04.13-18.24.10:404][948]LogFbx: 	Attribute (Cylinder) Type (4).
+[2020.04.13-18.24.10:404][948]LogFbx: 		[Node Attribute Child 1] Invader_Squid (Type Mesh).
+[2020.04.13-18.24.10:404][948]LogFbx: Dumping Node END [Invader_Squid]
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(0) Armature_Invader_Squid
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(1) Root
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(2) Root_end
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(3) FR_Root
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(4) FR_Upper
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(5) FR_Middle
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(6) FR_Lower
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(7) FR_Lower_end
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(8) BR_Root
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(9) BR_Upper
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(10) BR_Middle
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(11) BR_Lower
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(12) BR_Lower_end
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(13) FL_Root
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(14) FL_Upper
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(15) FL_Middle
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(16) FL_Lower
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(17) FL_Lower_end
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(18) BL_Root
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(19) BL_Upper
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(20) BL_Middle
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(21) BL_Lower
+[2020.04.13-18.24.10:404][948]LogFbx: SortedLinks :(22) BL_Lower_end
+[2020.04.13-18.24.10:405][948]LogFbx: Parsing AnimStack Armature_Invader_Squid|Armature_Invader_SquidAction
+[2020.04.13-18.24.10:406][948]LogLinker: Can't find file '/Game/3DAssets/InvaderSquid/Invader_Squid_Anim'
+[2020.04.13-18.24.10:407][948]LogLinker: Can't find file '/Game/3DAssets/InvaderSquid/Invader_Squid_Anim'
+[2020.04.13-18.24.10:772][948]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/3DAssets/InvaderSquid/Invader_Squid_Anim.Invader_Squid_Anim
+[2020.04.13-18.24.10:772][948]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Invader_Squid_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.13-18.24.10:788][948]LogSkeletalMesh: Building Skeletal Mesh Invader_Squid...
+[2020.04.13-18.24.10:790][948]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/3DAssets/InvaderSquid/Invader_Squid.Invader_Squid
+[2020.04.13-18.24.10:798][948]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.13-18.24.10:798][948]FBXImport: Warning: The following bones are missing from the bind pose:
+Root_end  
+FR_Lower_end  
+BR_Lower_end  
+FL_Lower_end  
+BL_Lower_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.04.13-18.24.10:805][948]LogSkeletalMesh: Building Skeletal Mesh Invader_Squid...
+[2020.04.13-18.24.10:808][948]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/3DAssets/InvaderSquid/Invader_Squid.Invader_Squid
+[2020.04.13-18.24.13:133][ 68]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-18.24.13:571][ 81]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-18.24.16:430][122]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid2D29C3B14484356847ECDAA4D4861D41.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid.uasset'
+[2020.04.13-18.24.16:545][122]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid1071E0BE442EB1EBBC33C02A00D9FDC6B.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid1.uasset'
+[2020.04.13-18.24.16:689][122]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid_AnimC0FCD3C347493790A7F2CDB8B7170D19.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid_Anim.uasset'
+[2020.04.13-18.24.16:799][122]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid_PhysicsAsset7EC20E9A4C858ED5F88A249E43453262.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid_PhysicsAsset.uasset'
+[2020.04.13-18.24.16:825][122]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid_SkeletonFBAEF304424A8619BD2FF88F9A4511F5.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid_Skeleton.uasset'
+[2020.04.13-18.24.20:044][179]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/3DAssets/InvaderSquid/Invader_Squid_Anim.Invader_Squid_Anim
+[2020.04.13-18.24.20:237][179]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-18.24.20:297][179]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-18.24.21:008][179]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-18.24.36:637][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.13-18.24.36:719][416]LogSlate: Window 'Invader_Squid_Anim' being destroyed
+[2020.04.13-18.24.41:628][553]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid_Anim0F00E1CC4232790A1475B99751B88BC1.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid_Anim.uasset'
+[2020.04.13-18.24.42:757][575]LogAssetEditorManager: Opening Asset editor for Material /Game/3DAssets/InvaderSquid/Invader_Squid1.Invader_Squid1
+[2020.04.13-18.24.42:762][575]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.24.43:016][575]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.24.43:057][575]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.24.43:101][575]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.24.43:101][575]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.24.43:101][575]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.24.43:101][575]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.24.43:129][575]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-18.24.43:771][585]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.24.43:836][585]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.24.43:846][585]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.24.43:851][585]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.24.43:968][586]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.24.44:009][586]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.24.44:031][586]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.24.44:047][586]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.24.44:170][591]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.24.44:330][593]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.24.44:482][594]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.24.44:536][595]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.24.44:610][596]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.24.44:749][598]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.24.44:782][598]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.24.45:005][601]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.24.45:011][601]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.24.45:119][602]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.24.45:180][603]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-18.24.45:264][604]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-18.24.45:383][605]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-18.24.45:435][606]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-18.24.45:435][606]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-18.24.45:500][607]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-18.24.45:604][607]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-18.24.45:647][608]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-18.24.45:656][608]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-18.24.45:710][609]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.24.45:988][614]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-18.24.46:090][616]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-18.24.46:163][618]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-18.24.46:186][618]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-18.24.46:394][623]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-18.24.46:480][624]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-18.24.46:656][628]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-18.24.46:684][629]LogShaderCompilers: Display: Shaders left to compile 22
+[2020.04.13-18.24.46:744][631]LogShaderCompilers: Display: Shaders left to compile 21
+[2020.04.13-18.24.46:899][635]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-18.24.47:027][639]LogShaderCompilers: Display: Shaders left to compile 19
+[2020.04.13-18.24.47:033][639]LogShaderCompilers: Display: Shaders left to compile 18
+[2020.04.13-18.24.47:141][642]LogShaderCompilers: Display: Shaders left to compile 17
+[2020.04.13-18.24.47:180][642]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.04.13-18.24.47:252][644]LogShaderCompilers: Display: Shaders left to compile 15
+[2020.04.13-18.24.47:277][644]LogShaderCompilers: Display: Shaders left to compile 14
+[2020.04.13-18.24.47:370][646]LogShaderCompilers: Display: Shaders left to compile 13
+[2020.04.13-18.24.47:384][646]LogShaderCompilers: Display: Shaders left to compile 12
+[2020.04.13-18.24.47:457][648]LogShaderCompilers: Display: Shaders left to compile 11
+[2020.04.13-18.24.47:659][652]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-18.24.47:761][654]LogShaderCompilers: Display: Shaders left to compile 9
+[2020.04.13-18.24.47:858][656]LogShaderCompilers: Display: Shaders left to compile 8
+[2020.04.13-18.24.47:943][658]LogShaderCompilers: Display: Shaders left to compile 7
+[2020.04.13-18.24.48:041][660]LogShaderCompilers: Display: Shaders left to compile 6
+[2020.04.13-18.24.48:144][662]LogShaderCompilers: Display: Shaders left to compile 5
+[2020.04.13-18.24.48:298][666]LogShaderCompilers: Display: Shaders left to compile 4
+[2020.04.13-18.24.48:359][668]LogShaderCompilers: Display: Shaders left to compile 3
+[2020.04.13-18.24.48:437][669]LogShaderCompilers: Display: Shaders left to compile 2
+[2020.04.13-18.24.48:546][671]LogShaderCompilers: Display: Shaders left to compile 1
+[2020.04.13-18.24.50:710][741]LogSlate: Window 'Invader_Squid1' being destroyed
+[2020.04.13-18.24.50:716][741]MaterialEditorStats: Base pass shader: 101 instructions
+[2020.04.13-18.24.50:716][741]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2020.04.13-18.24.50:716][741]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2020.04.13-18.24.50:716][741]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2020.04.13-18.24.50:716][741]MaterialEditorStats: Texture samplers: 3/16
+[2020.04.13-18.25.04:879][142]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.04:918][142]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.13-18.25.04:926][142]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.04:926][142]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.04:926][142]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.04:927][142]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.04:952][142]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-18.25.04:959][142]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.13-18.25.05:145][151]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.05:192][154]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.05:192][154]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.05:192][154]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.05:326][158]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.05:336][159]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.05:353][159]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.25.05:357][159]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.25.05:487][163]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.25.05:582][165]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.05:722][168]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.25.05:763][169]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.25.05:858][170]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.25.05:950][172]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.25.05:981][172]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.25.06:152][175]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.25.06:177][175]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.25.06:274][177]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.25.06:308][177]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.25.06:397][179]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.25.06:499][180]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-18.25.06:509][180]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-18.25.06:517][180]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-18.25.06:601][182]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-18.25.06:680][183]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-18.25.06:710][183]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-18.25.06:714][183]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-18.25.06:788][183]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-18.25.06:954][186]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-18.25.07:066][188]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.25.07:106][189]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-18.25.07:165][190]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-18.25.07:312][192]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-18.25.07:335][192]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-18.25.07:531][198]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-18.25.07:583][200]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-18.25.07:603][200]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-18.25.07:700][203]LogShaderCompilers: Display: Shaders left to compile 22
+[2020.04.13-18.25.07:840][207]LogShaderCompilers: Display: Shaders left to compile 21
+[2020.04.13-18.25.07:853][207]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-18.25.07:933][210]LogShaderCompilers: Display: Shaders left to compile 19
+[2020.04.13-18.25.07:939][210]LogShaderCompilers: Display: Shaders left to compile 18
+[2020.04.13-18.25.08:038][213]LogShaderCompilers: Display: Shaders left to compile 17
+[2020.04.13-18.25.08:066][214]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.04.13-18.25.08:114][216]LogShaderCompilers: Display: Shaders left to compile 15
+[2020.04.13-18.25.08:116][216]LogShaderCompilers: Display: Shaders left to compile 14
+[2020.04.13-18.25.08:205][217]LogShaderCompilers: Display: Shaders left to compile 13
+[2020.04.13-18.25.08:213][217]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.08:276][217]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.13-18.25.08:365][221]LogShaderCompilers: Display: Shaders left to compile 63
+[2020.04.13-18.25.08:466][225]LogShaderCompilers: Display: Shaders left to compile 62
+[2020.04.13-18.25.08:531][227]LogShaderCompilers: Display: Shaders left to compile 61
+[2020.04.13-18.25.08:614][230]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.13-18.25.08:670][230]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.08:698][230]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.08:775][232]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.08:849][237]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.08:892][239]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.08:915][241]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.08:978][244]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.25.09:030][245]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.25.09:068][245]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.25.09:080][245]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.09:147][249]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.25.09:324][250]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.25.09:422][252]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.25.09:470][252]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.25.09:532][253]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.25.09:654][256]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.25.09:691][256]LogMaterialEditor: Saving and Compiling material Invader_Squid1
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-18.25.10:503][256]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-18.25.10:529][256]LogShaderCompilers: Display: Shaders left to compile 2
+[2020.04.13-18.25.10:529][256]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.10:616][256]LogShaderCompilers: Display: Shaders left to compile 1
+[2020.04.13-18.25.10:651][256]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.10:704][256]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.10:802][256]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Invader_Squid1, compiling. 
+[2020.04.13-18.25.14:887][256]LogShaderCompilers: Display: Shaders left to compile 119
+[2020.04.13-18.25.14:887][256]LogShaderCompilers: Display: Shaders left to compile 119
+[2020.04.13-18.25.14:887][256]LogShaderCompilers: Display: Shaders left to compile 118
+[2020.04.13-18.25.14:887][256]LogShaderCompilers: Display: Shaders left to compile 117
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 116
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 115
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 114
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 113
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 112
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 111
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 110
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 109
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 108
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 107
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 106
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 105
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 104
+[2020.04.13-18.25.14:888][256]LogShaderCompilers: Display: Shaders left to compile 103
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 102
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 101
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 100
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 99
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 98
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 97
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 96
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 95
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 94
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 93
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 92
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 91
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 90
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 89
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 88
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 87
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 86
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 85
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 84
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 83
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 82
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 81
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 80
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 79
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 78
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 77
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 76
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 75
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 74
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 73
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 72
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 71
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 70
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 69
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 68
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 67
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 66
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 65
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 64
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 63
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 62
+[2020.04.13-18.25.14:889][256]LogShaderCompilers: Display: Shaders left to compile 61
+[2020.04.13-18.25.14:890][256]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.13-18.25.14:890][256]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.14:890][256]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.25.14:892][256]TextureStreamingBuild: Display: Compiling optional shaders took 4.099 seconds.
+[2020.04.13-18.25.14:937][256]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.25.19:433][256]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-18.25.19:433][256]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-18.25.19:509][256]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid1A84F7E004B69B8D24D915AABFF507ABA.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid1.uasset'
+[2020.04.13-18.25.19:531][256]MaterialEditorStats: Base pass shader: 102 instructions
+[2020.04.13-18.25.19:532][256]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2020.04.13-18.25.19:532][256]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2020.04.13-18.25.19:532][256]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2020.04.13-18.25.19:532][256]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.13-18.25.19:532][256]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-18.25.19:532][256]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.13-18.25.26:027][444]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.26:104][445]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.26:104][445]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.26:104][445]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.26:105][445]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.26:332][458]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.26:382][460]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.26:382][460]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.25.26:388][460]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.25.26:547][465]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.25.26:565][465]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.26:594][466]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.25.26:600][466]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.25.26:722][470]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.25.26:873][473]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.25.27:005][477]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.25.27:054][479]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.25.27:156][480]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.25.27:280][482]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.25.27:319][483]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.25.27:485][485]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.25.27:530][485]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-18.25.27:656][487]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-18.25.27:706][488]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-18.25.27:796][489]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-18.25.27:881][491]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-18.25.27:888][491]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-18.25.27:921][491]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-18.25.28:010][493]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-18.25.28:104][494]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-18.25.28:129][495]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.25.28:162][496]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-18.25.28:232][498]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-18.25.28:459][505]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-18.25.28:540][507]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-18.25.28:592][509]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-18.25.28:685][511]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-18.25.28:724][511]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.28:859][517]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.28:946][519]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.29:048][521]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.29:109][524]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.29:160][527]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.29:226][531]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.29:297][532]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.29:375][533]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.29:375][533]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.29:396][535]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.29:446][538]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.29:592][542]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.29:597][543]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.29:631][544]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.25.29:636][544]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.25.29:777][548]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.25.29:781][548]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.29:787][548]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.25.29:822][549]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.25.29:990][553]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.25.30:104][555]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.25.30:219][556]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.25.30:244][557]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.25.30:367][558]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.25.30:446][560]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.25.30:493][562]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.25.30:753][577]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.25.30:770][578]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-18.25.30:918][585]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-18.25.30:948][587]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-18.25.31:041][592]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-18.25.31:157][595]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-18.25.31:161][595]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-18.25.31:179][595]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-18.25.31:274][601]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-18.25.31:391][608]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-18.25.31:408][609]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.25.31:424][610]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-18.25.31:490][614]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-18.25.31:728][628]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-18.25.31:925][639]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.31:975][639]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.31:975][639]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.31:980][639]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.32:023][639]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.32:273][655]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.32:298][656]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.32:304][657]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.32:339][659]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.32:574][673]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.32:590][674]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.25.32:590][674]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.25.32:606][675]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.25.32:808][687]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.32:840][689]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.25.32:856][690]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.25.32:856][690]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.25.33:118][700]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.25.33:294][705]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.25.33:322][706]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.25.33:342][707]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.25.33:562][713]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.25.33:598][713]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.25.33:611][713]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.33:799][720]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.33:843][721]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.33:851][721]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.33:976][725]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.34:078][728]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.34:113][729]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.34:131][730]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.25.34:196][732]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.25.34:291][735]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.25.34:339][736]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.34:348][736]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.25.34:389][738]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.25.34:479][740]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.25.34:695][747]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.25.34:801][749]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.25.34:824][749]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.34:879][749]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.35:011][758]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.35:102][763]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.35:168][765]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-18.25.35:178][765]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-18.25.35:296][769]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-18.25.35:380][769]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-18.25.35:384][769]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-18.25.35:394][769]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-18.25.35:482][773]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.35:560][776]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-18.25.35:614][777]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-18.25.35:628][778]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-18.25.35:884][784]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-18.25.35:978][785]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-18.25.36:043][786]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-18.25.36:073][787]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-18.25.36:215][788]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-18.25.36:217][788]LogMaterialEditor: Applying material Invader_Squid1
+[2020.04.13-18.25.37:024][788]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-18.25.37:024][788]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.25.37:024][788]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-18.25.37:024][788]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-18.25.37:024][788]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-18.25.37:024][788]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-18.25.37:024][788]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-18.25.37:025][788]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-18.25.37:025][788]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-18.25.37:025][788]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-18.25.37:025][788]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-18.25.37:047][788]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.37:143][788]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-18.25.37:143][788]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-18.25.37:152][788]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-18.25.37:173][788]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.37:231][788]LogMaterial: Display: Missing cached shader map for material Invader_Squid1, compiling. 
+[2020.04.13-18.25.37:312][788]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Invader_Squid1, compiling. 
+[2020.04.13-18.25.41:229][788]LogShaderCompilers: Display: Shaders left to compile 117
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 116
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 115
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 114
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 113
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 112
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 111
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 110
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 109
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 108
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 107
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 106
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 105
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 104
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 103
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 102
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 101
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 100
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 99
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 98
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 97
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 96
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 95
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 94
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 93
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 92
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 91
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 90
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 89
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 88
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 87
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 86
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 85
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 84
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 83
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 82
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 81
+[2020.04.13-18.25.41:230][788]LogShaderCompilers: Display: Shaders left to compile 80
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 79
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 78
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 77
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 76
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 75
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 74
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 73
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 72
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 71
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 70
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 69
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 68
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 67
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 66
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 65
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 64
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 63
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 62
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 61
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-18.25.41:231][788]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-18.25.41:233][788]TextureStreamingBuild: Display: Compiling optional shaders took 3.928 seconds.
+[2020.04.13-18.25.43:079][847]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-18.25.43:400][851]LogMaterialEditor: Saving and Compiling material Invader_Squid1
+[2020.04.13-18.25.46:110][851]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-18.25.46:204][851]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Squid1B6DCF3F74C1A8F07458904A15C8078CA.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderSquid/Invader_Squid1.uasset'
+[2020.04.13-18.25.46:220][851]MaterialEditorStats: Base pass shader: 101 instructions
+[2020.04.13-18.25.46:220][851]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 168 instructions
+[2020.04.13-18.25.46:220][851]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2020.04.13-18.25.46:220][851]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2020.04.13-18.25.46:220][851]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.13-18.25.46:220][851]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-18.25.46:220][851]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.13-18.25.54:393][ 57]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyFiles/EnemyPrefab.EnemyPrefab
+[2020.04.13-18.25.58:905][202]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.13-18.25.58:927][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.25.58:927][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-18.25.58:928][202]PIE: New page: PIE session: Minimal_Default (Apr 13, 2020, 10:25:58 AM)
+[2020.04.13-18.25.58:929][202]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.13-18.25.58:933][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003667s)
+[2020.04.13-18.25.58:934][202]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.13-18.25.58:934][202]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2020.04.13-18.25.58:934][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004857s)
+[2020.04.13-18.25.59:030][202]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.13-18.25.59:205][202]LogInit: FAudioDevice initialized.
+[2020.04.13-18.25.59:221][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.25.59:306][202]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.13-18.25.59:309][202]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.13-14.25.59
+[2020.04.13-18.25.59:310][202]LogWorld: Bringing up level for play took: 0.002077
+[2020.04.13-18.25.59:323][202]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.13-18.25.59:324][202]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-18.25.59:325][202]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-18.25.59:325][202]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-18.25.59:377][202]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-18.25.59:380][202]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.324
+[2020.04.13-18.25.59:380][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.26.02:322][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.26.02:323][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-18.26.02:392][286]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-18.26.02:463][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-18.26.02:464][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-18.26.02:576][287]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.04.13-18.26.10:643][584]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/EnemyDataTable24C3F6DF4C7C9072F93BBBAC1F0AF01D.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Blueprints/EnemyFiles/EnemyDataTable.uasset'
+[2020.04.13-18.26.31:601][116]LogAssetEditorManager: Opening Asset editor for DataTable /Game/Blueprints/EnemyFiles/EnemyDataTable.EnemyDataTable
+[2020.04.13-18.26.38:084][369]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2020.04.13-18.26.38:085][369]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:146 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2020.04.13-18.26.38:085][369]LogD3D11RHI: [Aftermath] GDynamicRHI=000002B1A2D5C0C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.04.13-18.26.38:085][369]LogWindows: Windows GetLastError: The operation completed successfully. (0)
