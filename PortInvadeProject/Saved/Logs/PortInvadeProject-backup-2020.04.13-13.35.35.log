@@ -1,0 +1,1070 @@
+﻿Log file open, 04/13/20 13:31:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PortInvadeProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.291156
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.132s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.04.13-17.31.52:514][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-17.31.52:514][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.13-17.31.52:551][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.13-17.31.52:551][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.04.13-17.31.52:552][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.13-17.31.52:553][  0]LogInit: Computer: MSI
+[2020.04.13-17.31.52:553][  0]LogInit: User: DaultonNelson
+[2020.04.13-17.31.52:553][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.13-17.31.52:553][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.13-17.31.52:554][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.13-17.31.52:554][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.13-17.31.52:554][  0]LogMemory: Process Physical Memory: 102.23 MB used, 102.24 MB peak
+[2020.04.13-17.31.52:554][  0]LogMemory: Process Virtual Memory: 89.57 MB used, 89.57 MB peak
+[2020.04.13-17.31.52:554][  0]LogMemory: Physical Memory: 8778.26 MB used,  7493.15 MB free, 16271.41 MB total
+[2020.04.13-17.31.52:554][  0]LogMemory: Virtual Memory: 4612.59 MB used,  7493.15 MB free, 134217728.00 MB total
+[2020.04.13-17.31.54:814][  0]LogInit: Using OS detected language (en-US).
+[2020.04.13-17.31.54:814][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.13-17.31.54:817][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.13-17.31.55:216][  0]LogStreaming: Display: Took  0.402s to InitEngineTextLocalization.
+[2020.04.13-17.31.55:216][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.13-17.31.55:269][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.13-17.31.55:269][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.13-17.31.55:566][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-17.31.55:566][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.13-17.31.55:644][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.04.13-17.31.55:644][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.13-17.31.55:679][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.04.13-17.31.55:679][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.13-17.31.55:686][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.13-17.31.55:686][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.13-17.31.55:686][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.13-17.31.55:760][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.13-17.31.55:761][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.13-17.31.55:761][  0]LogWindows: EnumDisplayDevices:
+[2020.04.13-17.31.55:761][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.04.13-17.31.55:762][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.13-17.31.55:762][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.13-17.31.55:763][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.31.55:764][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.31.55:764][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.31.55:765][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.04.13-17.31.55:765][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.13-17.31.55:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.04.13-17.31.55:765][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.13-17.31.55:765][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.13-17.31.55:765][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.13-17.31.55:825][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.13-17.31.55:838][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.13-17.31.55:841][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Intermediate/Shaders/WorkingDirectory/17420/).
+[2020.04.13-17.31.55:841][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DaultonNelson/AppData/Local/Temp/UnrealShaderWorkingDir/A9D39C724F737420946D02B7B9EA2342/'.
+[2020.04.13-17.31.56:379][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.13-17.31.56:402][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.13-17.31.56:417][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.13-17.31.56:433][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.13-17.31.56:447][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.13-17.31.56:460][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.13-17.31.56:473][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.13-17.31.56:487][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.13-17.31.56:493][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.13-17.31.56:576][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.13-17.31.56:639][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.13-17.31.56:639][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.13-17.31.56:707][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.13-17.31.56:707][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.13-17.31.56:725][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.13-17.31.56:741][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.13-17.31.56:759][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.13-17.31.56:774][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.13-17.31.56:788][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.04.13-17.31.56:788][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.13-17.31.56:846][  0]LogXGEController: Cleaning working directory: C:/Users/DaultonNelson/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.13-17.31.56:847][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.13-17.31.56:847][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.13-17.31.56:847][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.13-17.31.57:674][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.13-17.31.57:723][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.13-17.31.57:724][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.04.13-17.31.57:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.13-17.31.57:724][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.13-17.31.57:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.13-17.31.57:724][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.13-17.31.57:742][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.13-17.31.57:754][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DaultonNelson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.13-17.31.57:754][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.13-17.31.57:754][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.13-17.31.57:774][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.13-17.31.57:775][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.13-17.31.57:776][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.13-17.31.57:870][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2020.04.13-17.31.58:197][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-17.31.58:367][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.13-17.31.58:371][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.13-17.31.58:371][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.13-17.31.58:371][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.13-17.31.58:371][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.13-17.31.58:391][  0]LogNetVersion: PortInvadeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2198381219)
+[2020.04.13-17.31.59:170][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.142966 seconds
+[2020.04.13-17.31.59:176][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.04.13-17.31.59:176][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2020.04.13-17.31.59:176][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.13-17.32.00:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.13-17.32.00:471][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.13-17.32.00:757][  0]SourceControl: Source control is disabled
+[2020.04.13-17.32.00:757][  0]SourceControl: Source control is disabled
+[2020.04.13-17.32.00:760][  0]SourceControl: Source control is disabled
+[2020.04.13-17.32.00:763][  0]SourceControl: Source control is disabled
+[2020.04.13-17.32.01:076][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.13-17.32.01:760][  0]LogOcInput: OculusInput pre-init called
+[2020.04.13-17.32.01:922][  0]LogEngine: Initializing Engine...
+[2020.04.13-17.32.01:924][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-17.32.01:926][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.13-17.32.01:927][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.13-17.32.01:927][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.13-17.32.01:927][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.13-17.32.02:493][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.13-17.32.02:517][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.13-17.32.02:720][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.13-17.32.02:937][  0]LogInit: FAudioDevice initialized.
+[2020.04.13-17.32.02:937][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.13-17.32.03:077][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/DaultonNelson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.04.13-17.32.03:085][  0]LogInit: Texture streaming: Enabled
+[2020.04.13-17.32.03:136][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.13-17.32.03:136][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={1C153073-4022-4976-D76D-24A7821BB191}
+[2020.04.13-17.32.03:169][  0]LogInit: Transaction tracking system initialized
+[2020.04.13-17.32.03:223][  0]BlueprintLog: New page: Editor Load
+[2020.04.13-17.32.03:455][  0]LocalizationService: Localization service is disabled
+[2020.04.13-17.32.03:976][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.13-17.32.03:976][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.13-17.32.03:976][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.13-17.32.03:976][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.04.13-17.32.03:976][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.13-17.32.03:976][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.04.13-17.32.03:976][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.13-17.32.04:112][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/' took 0.02s
+[2020.04.13-17.32.04:112][  0]SourceControl: Source control is disabled
+[2020.04.13-17.32.04:113][  0]LightingResults: New page: Lighting Build
+[2020.04.13-17.32.04:115][  0]MapCheck: New page: Map Check
+[2020.04.13-17.32.04:115][  0]LightingResults: New page: Lighting Build
+[2020.04.13-17.32.04:811][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.13-17.32.04:817][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.13-17.32.04:840][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.13-17.32.04:899][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.209ms to complete.
+[2020.04.13-17.32.04:899][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.787
+[2020.04.13-17.32.05:187][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.32.05:196][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.32.05:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.32.05:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.32.05:223][  0]LogCollectionManager: Loaded 0 collections in 0.002121 seconds
+[2020.04.13-17.32.05:267][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Collections/' took 0.01s
+[2020.04.13-17.32.05:267][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Developers/DaultonNelson/Collections/' took 0.01s
+[2020.04.13-17.32.05:267][  0]LogFileCache: Scanning file cache for directory 'D:/Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/Collections/' took 0.01s
+[2020.04.13-17.32.05:268][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.04.13-17.32.05:290][  0]LogContentBrowser: Native class hierarchy populated in 0.0219 seconds. Added 2572 classes and 603 folders.
+[2020.04.13-17.32.05:309][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.13-17.32.05:382][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.13-17.32.05:387][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.04.13-17.32.06:608][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.04.13-17.32.06:678][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.13-17.32.06:682][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.13-17.32.06:690][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.13-17.32.06:777][  0]LogRenderer: Reallocating scene render targets to support 860x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-17.32.06:910][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PortInvadeProject
+[2020.04.13-17.32.06:910][  0]LogTemp: CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.13-17.32.06:910][  0]LogTemp: Initial Dir: D:\Program Files\Unreal\Engine\UE_4.20
+[2020.04.13-17.32.06:910][  0]LogTemp: Env CWD: D:\Program Files\Unreal\Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.04.13-17.32.06:910][  0]LogTemp: BranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Unreal/Engine/UE_4.20/Engine/Binaries
+[2020.04.13-17.32.06:910][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DaultonNelson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.04.13-17.32.06:927][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.13-17.32.06:927][  0]LogLoad: (Engine Initialization) Total time: 16.97 seconds
+[2020.04.13-17.32.06:927][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.13-17.32.06:974][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.13-17.32.07:006][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-17.32.07:072][  1]LogAssetRegistry: Asset discovery search completed in 9.2243 seconds
+[2020.04.13-17.32.07:074][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.13-17.32.07:074][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2020.04.13-17.32.08:051][ 30]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-17.32.10:094][ 90]Cmd: SELECT NONE
+[2020.04.13-17.32.11:327][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.13-17.32.12:179][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.13-17.32.12:524][150]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default4BDFA90442484AEE8F2CA5BE08FAD993.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.04.13-17.32.12:616][150]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Minimal_Default_BuiltDataD8909C6A4DECB20B2E974FB77D9DA329.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2020.04.13-17.32.18:357][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.13-17.32.18:582][293]LogAssetEditorManager: Opening Asset editor for Material /Game/3DAssets/InvaderBug/Invader_Bug1.Invader_Bug1
+[2020.04.13-17.32.18:619][293]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.32.19:555][293]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.32.19:596][293]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.32.19:633][293]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.32.19:633][293]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.32.19:633][293]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.32.19:633][293]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.32.19:658][293]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-17.32.19:707][293]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.13-17.32.19:956][294]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.13-17.32.20:307][302]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.32.20:333][303]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.32.20:343][303]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.32.20:349][303]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.32.20:501][305]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.32.20:505][305]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.32.20:517][305]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.32.20:533][306]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.32.20:685][308]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.32.20:767][309]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.32.20:904][311]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.32.20:935][312]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.32.21:090][314]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.32.21:150][314]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.32.21:182][315]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.32.21:349][317]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.32.21:394][317]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.32.21:523][319]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.32.21:531][319]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.32.21:632][321]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-17.32.21:728][322]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-17.32.21:750][322]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-17.32.21:770][323]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-17.32.21:852][324]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-17.32.21:935][325]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-17.32.21:939][325]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-17.32.21:964][326]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-17.32.22:047][327]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.32.22:234][330]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-17.32.22:340][331]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-17.32.22:368][332]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-17.32.22:435][333]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-17.32.22:602][335]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-17.32.22:633][336]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-17.32.22:767][337]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-17.32.22:860][338]LogShaderCompilers: Display: Shaders left to compile 22
+[2020.04.13-17.32.22:870][338]LogShaderCompilers: Display: Shaders left to compile 21
+[2020.04.13-17.32.22:967][339]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-17.32.23:109][340]LogShaderCompilers: Display: Shaders left to compile 19
+[2020.04.13-17.32.23:125][341]LogShaderCompilers: Display: Shaders left to compile 18
+[2020.04.13-17.32.23:140][341]LogShaderCompilers: Display: Shaders left to compile 17
+[2020.04.13-17.32.23:184][341]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.04.13-17.32.23:285][342]LogShaderCompilers: Display: Shaders left to compile 15
+[2020.04.13-17.32.23:323][343]LogShaderCompilers: Display: Shaders left to compile 14
+[2020.04.13-17.32.23:329][343]LogShaderCompilers: Display: Shaders left to compile 13
+[2020.04.13-17.32.23:353][343]LogShaderCompilers: Display: Shaders left to compile 12
+[2020.04.13-17.32.23:454][344]LogShaderCompilers: Display: Shaders left to compile 11
+[2020.04.13-17.32.23:594][346]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-17.32.23:728][349]LogShaderCompilers: Display: Shaders left to compile 9
+[2020.04.13-17.32.23:738][349]LogShaderCompilers: Display: Shaders left to compile 8
+[2020.04.13-17.32.23:844][351]LogShaderCompilers: Display: Shaders left to compile 7
+[2020.04.13-17.32.23:955][353]LogShaderCompilers: Display: Shaders left to compile 6
+[2020.04.13-17.32.23:994][354]LogShaderCompilers: Display: Shaders left to compile 5
+[2020.04.13-17.32.24:172][358]LogShaderCompilers: Display: Shaders left to compile 4
+[2020.04.13-17.32.24:215][359]LogShaderCompilers: Display: Shaders left to compile 3
+[2020.04.13-17.32.24:309][361]LogShaderCompilers: Display: Shaders left to compile 2
+[2020.04.13-17.32.24:374][362]LogShaderCompilers: Display: Shaders left to compile 1
+[2020.04.13-17.32.24:636][369]MaterialEditorStats: Base pass shader: 101 instructions
+[2020.04.13-17.32.24:636][369]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2020.04.13-17.32.24:636][369]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2020.04.13-17.32.24:636][369]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2020.04.13-17.32.24:636][369]MaterialEditorStats: Texture samplers: 3/16
+[2020.04.13-17.32.58:712][905]LogSlate: Window 'Invader_Bug1' being destroyed
+[2020.04.13-17.33.06:561][ 96]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.06:599][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.13-17.33.06:604][ 96]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.06:604][ 96]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.06:604][ 96]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.06:604][ 96]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.06:631][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-17.33.06:638][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.13-17.33.07:176][118]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.07:227][119]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.07:246][120]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.07:252][120]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.07:370][122]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.07:406][122]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.07:406][122]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.07:444][123]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.07:556][125]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.07:705][130]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.07:857][134]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.07:868][135]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.07:982][138]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.08:123][142]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.08:127][142]LogMaterialEditor: Saving and Compiling material Invader_Bug1
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-17.33.08:926][142]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-17.33.08:947][142]LogShaderCompilers: Display: Shaders left to compile 4
+[2020.04.13-17.33.08:947][142]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.09:041][142]LogShaderCompilers: Display: Shaders left to compile 3
+[2020.04.13-17.33.09:074][142]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.09:122][142]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.09:189][142]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Invader_Bug1, compiling. 
+[2020.04.13-17.33.13:255][142]LogShaderCompilers: Display: Shaders left to compile 121
+[2020.04.13-17.33.13:255][142]LogShaderCompilers: Display: Shaders left to compile 120
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 119
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 119
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 118
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 117
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 116
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 115
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 114
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 113
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 112
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 111
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 110
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 109
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 108
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 107
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 106
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 105
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 104
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 103
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 102
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 101
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 100
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 99
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 98
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 97
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 96
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 95
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 94
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 93
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 92
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 91
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 90
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 89
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 88
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 87
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 86
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 85
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 84
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 83
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 82
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 81
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 80
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 79
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 78
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 77
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 76
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 75
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 74
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 73
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 72
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 71
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 70
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 69
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 68
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 67
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 66
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 65
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 64
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 63
+[2020.04.13-17.33.13:256][142]LogShaderCompilers: Display: Shaders left to compile 62
+[2020.04.13-17.33.13:257][142]LogShaderCompilers: Display: Shaders left to compile 61
+[2020.04.13-17.33.13:257][142]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.13-17.33.13:257][142]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.13:257][142]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.13:259][142]TextureStreamingBuild: Display: Compiling optional shaders took 4.079 seconds.
+[2020.04.13-17.33.17:853][142]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.33.17:853][142]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-17.33.17:853][142]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-17.33.18:013][142]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Bug1548806BB4983E7CC22D415BE0A3F25CA.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/Invader_Bug1.uasset'
+[2020.04.13-17.33.18:038][142]MaterialEditorStats: Base pass shader: 101 instructions
+[2020.04.13-17.33.18:038][142]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2020.04.13-17.33.18:038][142]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2020.04.13-17.33.18:038][142]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2020.04.13-17.33.18:038][142]MaterialEditorStats: Texture samplers: 3/16
+[2020.04.13-17.33.22:023][256]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.22:068][256]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.22:069][256]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.22:069][256]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.22:069][256]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.22:071][256]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.13-17.33.22:288][267]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.22:318][267]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.22:328][268]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.22:344][269]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.22:487][275]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.22:497][276]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.22:522][277]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.22:528][278]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.22:652][283]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.22:771][287]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.22:905][291]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.22:945][292]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.23:030][295]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.23:152][298]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.33.23:178][298]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.33.23:361][303]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.33.23:399][303]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.33.23:456][304]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.23:525][305]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.33.23:635][307]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-17.33.23:676][307]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-17.33.23:717][308]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-17.33.23:741][308]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-17.33.23:847][309]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-17.33.23:885][310]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-17.33.23:915][311]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-17.33.23:940][311]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-17.33.24:043][313]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.33.24:218][316]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-17.33.24:294][318]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-17.33.24:358][320]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-17.33.24:448][325]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-17.33.24:576][329]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-17.33.24:647][330]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-17.33.24:784][332]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-17.33.24:835][333]LogShaderCompilers: Display: Shaders left to compile 22
+[2020.04.13-17.33.24:868][333]LogShaderCompilers: Display: Shaders left to compile 21
+[2020.04.13-17.33.24:989][335]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-17.33.25:109][337]LogShaderCompilers: Display: Shaders left to compile 19
+[2020.04.13-17.33.25:116][337]LogShaderCompilers: Display: Shaders left to compile 18
+[2020.04.13-17.33.25:176][338]LogShaderCompilers: Display: Shaders left to compile 17
+[2020.04.13-17.33.25:216][338]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.04.13-17.33.25:300][341]LogShaderCompilers: Display: Shaders left to compile 15
+[2020.04.13-17.33.25:325][341]LogShaderCompilers: Display: Shaders left to compile 14
+[2020.04.13-17.33.25:367][341]LogShaderCompilers: Display: Shaders left to compile 13
+[2020.04.13-17.33.25:403][342]LogShaderCompilers: Display: Shaders left to compile 12
+[2020.04.13-17.33.25:486][344]LogShaderCompilers: Display: Shaders left to compile 11
+[2020.04.13-17.33.25:679][350]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-17.33.25:750][352]LogShaderCompilers: Display: Shaders left to compile 9
+[2020.04.13-17.33.25:804][354]LogShaderCompilers: Display: Shaders left to compile 8
+[2020.04.13-17.33.25:894][357]LogShaderCompilers: Display: Shaders left to compile 7
+[2020.04.13-17.33.26:009][360]LogShaderCompilers: Display: Shaders left to compile 6
+[2020.04.13-17.33.26:099][363]LogShaderCompilers: Display: Shaders left to compile 5
+[2020.04.13-17.33.26:245][368]LogShaderCompilers: Display: Shaders left to compile 4
+[2020.04.13-17.33.26:278][369]LogShaderCompilers: Display: Shaders left to compile 3
+[2020.04.13-17.33.26:304][369]LogMaterialEditor: Saving and Compiling material Invader_Bug1
+[2020.04.13-17.33.27:137][369]LogShaderCompilers: Display: Shaders left to compile 2
+[2020.04.13-17.33.27:137][369]LogShaderCompilers: Display: Shaders left to compile 1
+[2020.04.13-17.33.27:188][369]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.27:345][369]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.27:345][369]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.27:345][369]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.27:345][369]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.27:428][369]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.27:489][369]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.27:559][369]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Invader_Bug1, compiling. 
+[2020.04.13-17.33.31:460][369]LogShaderCompilers: Display: Shaders left to compile 116
+[2020.04.13-17.33.31:460][369]LogShaderCompilers: Display: Shaders left to compile 115
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 114
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 113
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 112
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 111
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 110
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 109
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 108
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 107
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 106
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 105
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 104
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 103
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 102
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 101
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 100
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 99
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 98
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 97
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 96
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 95
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 94
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 93
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 92
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 91
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 90
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 89
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 88
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 87
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 86
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 85
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 84
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 83
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 82
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 81
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 80
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 79
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 78
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 77
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 76
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 75
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 74
+[2020.04.13-17.33.31:461][369]LogShaderCompilers: Display: Shaders left to compile 73
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 72
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 71
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 70
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 69
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 68
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 67
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 66
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 65
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 64
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 63
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 62
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 61
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.31:462][369]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.31:464][369]TextureStreamingBuild: Display: Compiling optional shaders took 3.913 seconds.
+[2020.04.13-17.33.36:114][369]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.33.36:114][369]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-17.33.36:114][369]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-17.33.36:222][369]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Bug1CF94CB4646F120A056F789A832217741.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/Invader_Bug1.uasset'
+[2020.04.13-17.33.36:240][369]MaterialEditorStats: Base pass shader: 102 instructions
+[2020.04.13-17.33.36:240][369]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2020.04.13-17.33.36:240][369]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2020.04.13-17.33.36:240][369]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2020.04.13-17.33.36:241][369]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.13-17.33.36:241][369]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-17.33.36:241][369]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.13-17.33.39:721][473]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.39:904][474]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.39:904][474]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.39:904][474]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.39:904][474]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.39:978][479]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.40:026][482]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.40:026][482]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.40:026][482]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.40:166][488]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.40:178][489]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.40:210][490]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.40:211][490]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.40:339][493]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.40:452][497]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.40:572][500]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.40:621][501]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.33.40:710][503]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.33.40:807][506]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.33.40:851][507]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.33.41:043][515]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.41:067][516]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.33.41:181][523]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-17.33.41:247][527]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-17.33.41:334][532]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-17.33.41:434][538]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-17.33.41:475][541]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-17.33.41:492][542]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-17.33.41:583][547]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-17.33.41:661][552]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-17.33.41:697][554]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.33.41:727][556]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-17.33.41:801][560]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-17.33.42:040][573]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-17.33.42:112][575]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-17.33.42:166][576]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-17.33.42:240][579]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-17.33.42:386][583]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-17.33.42:472][586]LogShaderCompilers: Display: Shaders left to compile 22
+[2020.04.13-17.33.42:606][589]LogShaderCompilers: Display: Shaders left to compile 21
+[2020.04.13-17.33.42:669][591]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-17.33.42:699][592]LogShaderCompilers: Display: Shaders left to compile 19
+[2020.04.13-17.33.42:836][596]LogShaderCompilers: Display: Shaders left to compile 18
+[2020.04.13-17.33.42:949][599]LogShaderCompilers: Display: Shaders left to compile 17
+[2020.04.13-17.33.42:966][600]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.04.13-17.33.43:006][601]LogShaderCompilers: Display: Shaders left to compile 15
+[2020.04.13-17.33.43:072][603]LogShaderCompilers: Display: Shaders left to compile 14
+[2020.04.13-17.33.43:154][606]LogShaderCompilers: Display: Shaders left to compile 13
+[2020.04.13-17.33.43:182][606]LogShaderCompilers: Display: Shaders left to compile 12
+[2020.04.13-17.33.43:200][607]LogShaderCompilers: Display: Shaders left to compile 11
+[2020.04.13-17.33.43:263][609]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-17.33.43:340][611]LogShaderCompilers: Display: Shaders left to compile 9
+[2020.04.13-17.33.43:529][617]LogShaderCompilers: Display: Shaders left to compile 8
+[2020.04.13-17.33.43:601][618]LogShaderCompilers: Display: Shaders left to compile 7
+[2020.04.13-17.33.43:654][620]LogShaderCompilers: Display: Shaders left to compile 6
+[2020.04.13-17.33.43:743][623]LogShaderCompilers: Display: Shaders left to compile 5
+[2020.04.13-17.33.43:860][627]LogShaderCompilers: Display: Shaders left to compile 4
+[2020.04.13-17.33.43:942][629]LogShaderCompilers: Display: Shaders left to compile 3
+[2020.04.13-17.33.44:104][633]LogShaderCompilers: Display: Shaders left to compile 2
+[2020.04.13-17.33.44:121][633]LogShaderCompilers: Display: Shaders left to compile 1
+[2020.04.13-17.33.45:018][660]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.45:066][662]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.45:066][662]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.45:066][662]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.45:066][662]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.45:286][672]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.45:330][673]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.45:334][673]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.45:334][673]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.45:474][678]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.45:488][678]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.45:518][678]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.45:523][679]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.45:639][682]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.45:764][686]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.45:896][690]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.45:928][691]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.33.46:030][694]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.33.46:137][697]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.33.46:172][698]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.33.46:359][704]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.46:382][704]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.33.46:422][704]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.46:511][705]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.46:552][708]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.46:645][712]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.46:745][715]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.46:762][716]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.46:799][717]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.46:869][719]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.46:929][720]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.46:956][720]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.46:976][720]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.47:043][721]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.47:070][722]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.47:122][723]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.47:325][727]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.47:363][728]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.47:477][732]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.33.47:528][733]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.33.47:622][737]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.33.47:748][743]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.33.47:906][750]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.47:954][753]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.33.48:026][755]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-17.33.48:137][759]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-17.33.48:210][762]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-17.33.48:275][766]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-17.33.48:315][768]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-17.33.48:390][770]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-17.33.48:459][774]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-17.33.48:496][775]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-17.33.48:523][776]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.33.48:621][781]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-17.33.48:670][784]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-17.33.48:922][799]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-17.33.48:972][802]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-17.33.49:021][805]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-17.33.49:139][812]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-17.33.49:272][820]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-17.33.49:305][821]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.49:355][821]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.49:401][821]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.49:482][827]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.49:567][832]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.49:658][837]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.49:682][839]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.49:734][842]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.49:816][847]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.49:868][850]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.49:883][851]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.49:949][855]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.50:016][859]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.50:016][859]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.50:084][863]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.50:273][870]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.50:403][877]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.50:486][880]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.33.50:505][881]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.33.50:670][889]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.33.50:725][891]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.33.50:925][896]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.50:930][896]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.33.50:950][896]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-17.33.51:074][900]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-17.33.51:179][901]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-17.33.51:179][901]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-17.33.51:301][903]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-17.33.51:307][903]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-17.33.51:391][905]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-17.33.51:407][905]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-17.33.51:505][906]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.33.51:510][906]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-17.33.51:581][907]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-17.33.51:759][910]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-17.33.51:785][910]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-17.33.51:853][910]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.51:906][910]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.51:977][913]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.52:054][914]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.52:134][914]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.52:164][914]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.52:198][916]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.52:268][916]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.52:303][916]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.52:335][918]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.52:377][918]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.52:452][920]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.52:453][920]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.52:511][921]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.52:692][928]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.52:795][931]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.52:850][931]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.52:892][931]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.52:922][934]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.53:057][942]LogShaderCompilers: Display: Shaders left to compile 57
+[2020.04.13-17.33.53:146][945]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.04.13-17.33.53:160][946]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.04.13-17.33.53:165][946]LogShaderCompilers: Display: Shaders left to compile 54
+[2020.04.13-17.33.53:272][949]LogShaderCompilers: Display: Shaders left to compile 53
+[2020.04.13-17.33.53:332][951]LogShaderCompilers: Display: Shaders left to compile 52
+[2020.04.13-17.33.53:340][951]LogShaderCompilers: Display: Shaders left to compile 51
+[2020.04.13-17.33.53:347][951]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.53:444][951]LogShaderCompilers: Display: Shaders left to compile 49
+[2020.04.13-17.33.53:485][954]LogShaderCompilers: Display: Shaders left to compile 48
+[2020.04.13-17.33.53:513][955]LogShaderCompilers: Display: Shaders left to compile 47
+[2020.04.13-17.33.53:726][960]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.04.13-17.33.53:730][960]LogShaderCompilers: Display: Shaders left to compile 45
+[2020.04.13-17.33.53:856][964]LogShaderCompilers: Display: Shaders left to compile 44
+[2020.04.13-17.33.53:899][964]LogShaderCompilers: Display: Shaders left to compile 43
+[2020.04.13-17.33.53:970][965]LogShaderCompilers: Display: Shaders left to compile 42
+[2020.04.13-17.33.54:105][968]LogShaderCompilers: Display: Shaders left to compile 41
+[2020.04.13-17.33.54:226][970]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.54:270][970]LogShaderCompilers: Display: Shaders left to compile 39
+[2020.04.13-17.33.54:336][972]LogShaderCompilers: Display: Shaders left to compile 38
+[2020.04.13-17.33.54:463][975]LogShaderCompilers: Display: Shaders left to compile 37
+[2020.04.13-17.33.54:512][975]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.04.13-17.33.54:569][976]LogShaderCompilers: Display: Shaders left to compile 35
+[2020.04.13-17.33.54:599][977]LogShaderCompilers: Display: Shaders left to compile 34
+[2020.04.13-17.33.54:647][977]LogMaterialEditor: Applying material Invader_Bug1
+[2020.04.13-17.33.55:440][977]LogShaderCompilers: Display: Shaders left to compile 33
+[2020.04.13-17.33.55:440][977]LogShaderCompilers: Display: Shaders left to compile 32
+[2020.04.13-17.33.55:440][977]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.04.13-17.33.55:440][977]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.33.55:440][977]LogShaderCompilers: Display: Shaders left to compile 29
+[2020.04.13-17.33.55:441][977]LogShaderCompilers: Display: Shaders left to compile 28
+[2020.04.13-17.33.55:441][977]LogShaderCompilers: Display: Shaders left to compile 27
+[2020.04.13-17.33.55:441][977]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.04.13-17.33.55:441][977]LogShaderCompilers: Display: Shaders left to compile 25
+[2020.04.13-17.33.55:441][977]LogShaderCompilers: Display: Shaders left to compile 24
+[2020.04.13-17.33.55:441][977]LogShaderCompilers: Display: Shaders left to compile 23
+[2020.04.13-17.33.55:464][977]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.55:560][977]LogShaderCompilers: Display: Shaders left to compile 59
+[2020.04.13-17.33.55:584][977]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.55:639][977]LogShaderCompilers: Display: Shaders left to compile 58
+[2020.04.13-17.33.55:642][977]LogMaterial: Display: Missing cached shader map for material Invader_Bug1, compiling. 
+[2020.04.13-17.33.55:716][977]LogShaderCompilers: Display: Shaders left to compile 117
+[2020.04.13-17.33.55:716][977]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Invader_Bug1, compiling. 
+[2020.04.13-17.33.59:618][977]LogShaderCompilers: Display: Shaders left to compile 117
+[2020.04.13-17.33.59:618][977]LogShaderCompilers: Display: Shaders left to compile 116
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 115
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 114
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 113
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 112
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 111
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 110
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 109
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 108
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 107
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 106
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 105
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 104
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 103
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 102
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 101
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 100
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 99
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 98
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 97
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 96
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 95
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 94
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 93
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 92
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 91
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 90
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 89
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 88
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 87
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 86
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 85
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 84
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 83
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 82
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 81
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 80
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 79
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 78
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 77
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 76
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 75
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 74
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 73
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 72
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 71
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 70
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 69
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 68
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 67
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 66
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 65
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 64
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 63
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 62
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 61
+[2020.04.13-17.33.59:619][977]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.04.13-17.33.59:620][977]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.13-17.33.59:620][977]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.13-17.33.59:622][977]TextureStreamingBuild: Display: Compiling optional shaders took 3.914 seconds.
+[2020.04.13-17.33.59:657][978]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.13-17.34.01:628][ 32]LogMaterialEditor: Saving and Compiling material Invader_Bug1
+[2020.04.13-17.34.01:699][ 32]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.13-17.34.05:197][ 32]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.13-17.34.05:311][ 32]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Bug1CE6C1DB54F59961BD8947593C23112E7.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/Invader_Bug1.uasset'
+[2020.04.13-17.34.05:345][ 32]MaterialEditorStats: Base pass shader: 101 instructions
+[2020.04.13-17.34.05:345][ 32]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 168 instructions
+[2020.04.13-17.34.05:346][ 32]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2020.04.13-17.34.05:346][ 32]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2020.04.13-17.34.05:346][ 32]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.13-17.34.05:346][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-17.34.05:346][ 32]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.13-17.34.24:566][476]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PlayerShipPawn.PlayerShipPawn
+[2020.04.13-17.34.25:979][476]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 116 classes and 0 folders.
+[2020.04.13-17.34.29:894][546]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.13-17.34.29:917][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.34.29:917][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-17.34.29:929][546]PIE: New page: PIE session: Minimal_Default (Apr 13, 2020, 9:34:29 AM)
+[2020.04.13-17.34.29:930][546]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.04.13-17.34.29:933][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002865s)
+[2020.04.13-17.34.29:933][546]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.13-17.34.29:934][546]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2020.04.13-17.34.29:934][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003942s)
+[2020.04.13-17.34.30:112][546]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.04.13-17.34.30:471][546]LogInit: FAudioDevice initialized.
+[2020.04.13-17.34.30:516][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.34.30:622][546]LogLoad: Game class is 'Shoot-em-UpMode_C'
+[2020.04.13-17.34.30:625][546]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.04.13-13.34.30
+[2020.04.13-17.34.30:625][546]LogWorld: Bringing up level for play took: 0.000782
+[2020.04.13-17.34.30:637][546]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.13-17.34.30:642][546]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2020.04.13-17.34.30:642][546]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-17.34.30:642][546]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.04.13-17.34.30:642][546]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-17.34.30:671][546]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.04.13-17.34.30:674][546]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.618
+[2020.04.13-17.34.30:674][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.34.30:711][546]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-17.34.32:771][607]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.34.32:772][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-17.34.32:813][607]LogSlate: Window 'PortInvadeProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-17.34.32:880][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-17.34.32:881][607]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.04.13-17.34.32:991][608]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.13-17.34.42:416][870]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/3DAssets/InvaderBug/Invader_Bug_Anim_Invader_Bug_Armature_Invader_Bug_Idle.Invader_Bug_Anim_Invader_Bug_Armature_Invader_Bug_Idle
+[2020.04.13-17.34.42:430][870]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.04.13-17.34.42:587][870]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-17.34.42:592][870]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2020.04.13-17.34.42:773][870]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-17.34.43:754][870]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2020.04.13-17.34.43:764][870]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-17.34.52:819][  8]LogSlate: Window 'Invader_Bug_Anim_Invader_Bug_Armature_Invader_Bug_Idle' being destroyed
+[2020.04.13-17.34.52:907][  8]LogSlate: Window 'Invader_Bug_Anim_Invader_Bug_Armature_Invader_Bug_Idle' being destroyed
+[2020.04.13-17.34.56:226][ 76]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/Invader_Bug_Anim_Invader_Bug_Arm6967ECE84B3B798BD8F31B98652CF3CB.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/Invader_Bug_Anim_Invader_Bug_Armature_Invader_Bug_Idle.uasset'
+[2020.04.13-17.35.03:891][272]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.04.13-17.35.07:324][272]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2020.04.13-17.35.14:039][473]LogSavePackage: Moving '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Saved/ABP_BugC599C2AA406AA4E46D6A34B765CE8A3B.tmp' to '../../../../../../../Side Projects/Unreal Portfolio Invaders/PortfolioInvaders/PortInvadeProject/Content/3DAssets/InvaderBug/ABP_Bug.uasset'
+[2020.04.13-17.35.15:419][505]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/3DAssets/InvaderBug/ABP_Bug.ABP_Bug
+[2020.04.13-17.35.15:677][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-17.35.16:670][505]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-17.35.17:630][505]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-17.35.25:953][654]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:146 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2020.04.13-17.35.25:953][654]LogD3D11RHI: [Aftermath] GDynamicRHI=000001F221542140, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.04.13-17.35.25:954][654]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.04.13-17.35.29:730][654]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.04.13-17.35.29:730][654]LogWindows: Error: === Critical error: ===
+[2020.04.13-17.35.29:730][654]LogWindows: Error: 
+[2020.04.13-17.35.29:730][654]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2020.04.13-17.35.29:730][654]LogWindows: Error: Rendering thread exception:
+[2020.04.13-17.35.29:730][654]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
+[2020.04.13-17.35.29:730][654]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2020.04.13-17.35.29:730][654]LogWindows: Error: 
+[2020.04.13-17.35.29:730][654]LogWindows: Error: 
+[2020.04.13-17.35.29:730][654]LogWindows: Error: [Callstack] 0x00007ffad7dca859 KERNELBASE.dll!UnknownFunction []
+[2020.04.13-17.35.29:730][654]LogWindows: Error: [Callstack] 0x00007ffa8a4d6850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.13-17.35.29:730][654]LogWindows: Error: [Callstack] 0x00007ffa4a1a62fc UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa4a1351db UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3ac8adea UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3ac8e6e4 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3ac65951 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3ac7bbe5 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3d02320b UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3d07ad5e UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3d094374 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3d0637ce UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3d08c690 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3cab671a UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3cfe6982 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa3cfb8fb2 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa49fc1f92 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa49fc2456 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa8a5575f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa8a558574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa4a406b7c UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffa4a4017c7 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-17.35.29:731][654]LogWindows: Error: [Callstack] 0x00007ffad8757bd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.13-17.35.29:732][654]LogWindows: Error: [Callstack] 0x00007ffada1eced1 ntdll.dll!UnknownFunction []
+[2020.04.13-17.35.29:732][654]LogWindows: Error: 
+[2020.04.13-17.35.29:732][654]LogWindows: Error: 
+[2020.04.13-17.35.29:732][654]LogWindows: Error: 
+[2020.04.13-17.35.29:732][654]LogWindows: Error: 
+[2020.04.13-17.35.29:774][654]LogExit: Executing StaticShutdownAfterError
+[2020.04.13-17.35.29:783][654]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.04.13-17.35.29:793][654]Log file closed, 04/13/20 13:35:29
