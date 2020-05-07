@@ -1,0 +1,2 @@
+Make ships go faster as the dwindle
+Gain lives after a certain amount of points
